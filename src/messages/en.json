@@ -1,0 +1,516 @@
+{
+  "header": {
+    "logoAlt": "ByteForge Logo",
+    "brandSubtitle": "Cloud Hosting",
+    "cart": "Cart",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "nav": {
+      "myServer": "My Server",
+      "choosePlan": "Choose your plan",
+      "afterCloud": "After the Cloud",
+      "contact": "Contact"
+    }
+  },
+  "productCard": {
+    "badge": "Hosting Plan",
+    "vat": "+ VAT",
+    "buttons": {
+      "characteristics": "Characteristics",
+      "addToCart": "Add to cart",
+      "added": "Added"
+    }
+  },
+  "planModal": {
+    "back": "Back to plans",
+    "badge": "Enterprise Hosting",
+    "startingAt": "Starting at",
+    "quantity": "Quantity",
+    "total": "Total",
+    "addToCart": "Add to cart",
+    "features": {
+      "badge": "Included Features",
+      "title": "Built for production infrastructure"
+    }
+  },
+  "contactForm": {
+    "badge": "We're here to help.",
+    "title": "Point of contact",
+    "form": {
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Message"
+    },
+    "messages": {
+      "success": "Message sent successfully.",
+      "error": "An error occurred while sending the message."
+    },
+    "buttons": {
+      "sending": "Sending...",
+      "sent": "Message sent",
+      "send": "Send"
+    }
+  },
+  "storePage": {
+    "hero": {
+      "title": "Plans and Prices",
+      "subtitle": "Give your website the excellence it deserves — select hosting that consistently delivers the best!"
+    },
+    "plans": {
+      "badge": "Hosting Plans",
+      "title": "Infrastructure built for performance and scalability",
+      "description": "Choose the hosting solution that best fits your project, whether you are launching a small website or scaling enterprise-level infrastructure."
+    },
+    "flexibility": {
+      "badge": "Total Flexibility",
+      "title": "Create a hosting solution tailored to your needs",
+      "description": "Customize your infrastructure, resources and hosting environment according to your exact requirements. Flexible solutions built for growth.",
+      "button": "Get a quote here",
+      "note": "Need custom infrastructure? Our team can help you design the ideal hosting environment."
+    }
+  },
+  "aboutPage": {
+    "metadata": {
+      "title": "After the Cloud — ByteForge",
+      "description": "Who we are and why we do it. Give your website the excellence it deserves: reliable, secure, and high-performance hosting."
+    },
+    "hero": {
+      "title": "Who we are and why we do it",
+      "subtitle": "Give your website the excellence it deserves: reliable, secure, and high-performance hosting that fuels your digital growth."
+    },
+    "badge": "About ByteForge",
+    "sectionTitle": "Infrastructure designed for modern digital businesses",
+    "intro": {
+      "first": "We help companies, developers and online projects build reliable digital experiences through scalable, secure and high-performance hosting solutions.",
+      "second": "Our focus is not only infrastructure, but long-term stability, technical excellence and real support for every stage of growth."
+    },
+    "values": {
+      "mission": {
+        "title": "Our Mission",
+        "desc": "To revolutionize the digital landscape by offering robust hosting solutions that allow companies and projects to grow with innovation, security, and stability."
+      },
+      "role": {
+        "title": "Our Role",
+        "desc": "To be the technological backbone of businesses worldwide, providing state-of-the-art infrastructure, maximum reliability, and constant support so that every customer can thrive in the digital environment."
+      },
+      "value": {
+        "title": "Our Value",
+        "desc": "We focus on delivering real value: optimized performance, advanced security, and personalized support. Our commitment is clear: to drive the success of every client in their digital projects."
+      }
+    },
+    "cta": {
+      "heading": "Start your digital success story with us",
+      "button": "Start now"
+    }
+  },
+  "cta": {
+    "badge": "Are you ready?",
+    "heading": "Start your digital success story here",
+    "description": "Launch your next project with secure infrastructure, high-performance servers and scalable hosting solutions.",
+    "buttonLabel": "Begin",
+    "panel": {
+      "infrastructureStatus": "Infrastructure Status",
+      "operational": "Operational",
+      "stats": {
+        "uptime": "Uptime",
+        "response": "Response",
+        "deployments": "Deployments",
+        "security": "Security",
+        "fast": "Fast",
+        "active": "Active"
+      }
+    }
+  },
+  "globalTrust": {
+    "badge": "Global Trust",
+    "title": "Secure digital presence",
+    "description": "With our high-performance infrastructure, we guarantee a reliable environment for your website to operate without interruption, protected with the most advanced security technology and supported by a team available whenever you need it.",
+    "cta": "Services"
+  },
+  "pricing": {
+    "badge": "Plans and Prices",
+    "title": "Affordable plans, premium performance",
+    "recommended": "Recommended",
+    "includes": "Includes",
+    "viewPlan": "View Plan"
+  },
+  "faq": {
+    "badge": "Do you have any questions?",
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know about our hosting infrastructure, deployment process and support services.",
+    "items": [
+      {
+        "q": "What type of hosting do you offer?",
+        "a": "We offer shared hosting, VPS, dedicated servers and cloud hosting solutions tailored to different kinds of projects."
+      },
+      {
+        "q": "Is technical support available 24/7?",
+        "a": "Yes, our support team is available 24/7 to help you whenever you need assistance."
+      },
+      {
+        "q": "Do your plans include a free SSL certificate?",
+        "a": "Yes, all our plans include free SSL certificates to improve your website security."
+      },
+      {
+        "q": "Can I scale my plan later?",
+        "a": "Absolutely, you can easily upgrade your plan as your project grows and requires more resources."
+      },
+      {
+        "q": "Do you provide automatic backups?",
+        "a": "Yes, we perform automatic backups to protect your information and simplify data recovery."
+      },
+      {
+        "q": "How fast is the deployment process?",
+        "a": "Our system allows instant deployments so you can launch your project within minutes."
+      }
+    ]
+  },
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "summary": "1. Summary",
+      "shippingPayment": "2. Shipping and Payment Details"
+    },
+    "success": {
+      "title": "Payment Processed Successfully!",
+      "description": "Your transaction has been authorized. The record of your medical order is now being prepared.",
+      "paymentReference": "Payment Reference:",
+      "paidAmount": "Paid Amount:",
+      "transactionStatus": "Transaction Status:",
+      "approved": "APPROVED",
+      "backToCatalog": "Back to Catalog"
+    },
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "We could not detect any medical supplies in your current checkout session.",
+      "goToStore": "Go to Store"
+    },
+    "order": {
+      "title": "Items in Your Order",
+      "clear": "Clear Items"
+    },
+    "financial": {
+      "title": "Financial Summary",
+      "couponPlaceholder": "Discount code",
+      "applyCoupon": "Apply",
+      "appliedCoupon": "Coupon {code} (-{discount}%)",
+      "remove": "Remove",
+      "couponInvalid": "The coupon code you entered is invalid or has expired.",
+      "subtotal": "Subtotal:",
+      "discount": "Discount Applied:",
+      "netTotal": "Net Total Due:",
+      "tax": "VAT {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Proceed to Payment Form",
+      "processing": "Verifying Funds with Octano...",
+      "payAmount": "Pay {amount}",
+      "backToCart": "Modify my order / Apply coupon"
+    },
+    "errors": {
+      "declined": "The transaction was declined by the issuing bank.",
+      "connection": "A critical connection error occurred with the payment server."
+    },
+    "metadata": {
+      "couponApplied": "Coupon applied",
+      "standardSale": "Standard web sale"
+    },
+    "form": {
+      "buyerTitle": "Buyer / Tax Information",
+      "addressTitle": "Shipping and Destination Address",
+      "paymentTitle": "Encrypted Payment Gateway",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "email": "Email Address *",
+      "phone": "Mobile Phone (10 digits) *",
+      "company": "Business / Clinic / Hospital Name (Optional)",
+      "streetAddress": "Street, Exterior Number and Interior Number *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
+      "neighborhood": "Neighborhood / Cross Streets (Optional)",
+      "neighborhoodPlaceholder": "Vértiz Narvarte",
+      "city": "City *",
+      "state": "State *",
+      "statePlaceholder": "Mexico City",
+      "postalCode": "ZIP / Postal Code *",
+      "country": "Country",
+      "mexico": "Mexico (MX)",
+      "cardNumber": "Card Number (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Cardholder Full Name *",
+      "cardHolderPlaceholder": "As it appears on the card",
+      "expiryMonth": "Exp. Month (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Exp. Year (YYYY) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "CVV / CVC *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Encrypted Transaction"
+    },
+    "images": {
+      "octanoAlt": "Octano",
+      "securePaymentAlt": "Secure payment"
+    }
+  },
+  "hero": {
+    "title": "Powerful hosting for modern websites and applications",
+    "description": "Fast, secure and scalable infrastructure designed for developers, businesses and growing online projects.",
+    "features": {
+      "uptime": "99.9% uptime",
+      "deployment": "Instant deployment",
+      "ddos": "DDoS protection"
+    },
+    "server": {
+      "label": "Active Server",
+      "status": "Online"
+    },
+    "stats": {
+      "cpuUsage": "CPU Usage",
+      "bandwidth": "Bandwidth",
+      "latency": "Latency",
+      "security": "Security",
+      "protected": "Protected"
+    },
+    "infrastructure": "Infrastructure optimized for speed and reliability."
+  },
+  "contactPage": {
+    "metadata": {
+      "title": "Contact — ByteForge",
+      "description": "We are here to help you. Personalized advice and immediate solutions — contact us and get help when you need it."
+    },
+    "hero": {
+      "title": "We are here to help you.",
+      "subtitle": "Personalized advice and immediate solutions. Contact us and get help when you need it."
+    },
+    "badge": "Contact ByteForge",
+    "heading": "Get in touch with our infrastructure team",
+    "description": "Whether you need technical assistance, custom hosting solutions or guidance for scaling your infrastructure, our team is ready to help you every step of the way.",
+    "imageAlt": "ByteForge customer support",
+    "cards": {
+      "liveSupport": {
+        "title": "Live Support",
+        "value": "Write to us anytime for immediate assistance."
+      },
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Phone"
+      }
+    }
+  },
+  "about": {
+    "badge": "Sobre Nosotros",
+    "title": "Donde la experiencia se encuentra con la excelencia",
+    "description": "Experimenta un servicio incomparable donde nuestra experiencia se combina perfectamente con la excelencia, garantizando máximo rendimiento y confiabilidad para tus proyectos digitales. Descubre el hosting redefinido.",
+    "imageAlt": "El equipo de ByteForge"
+  },
+  "customPlan": {
+    "imageAlt": "ByteForge logo",
+    "hero": {
+      "badge": "Custom quote",
+      "title": "Complete your custom order",
+      "description": "Easily add an approved quote to your cart and continue securely with the checkout process."
+    },
+    "authorized": {
+      "badge": "Custom infrastructure",
+      "title": "Authorized order",
+      "description": "Use your approved quote number to generate a personalized order with the previously agreed pricing."
+    },
+    "summary": {
+      "title": "Personalized order",
+      "description": "Configure your approved custom quote and add it directly to your cart securely."
+    },
+    "form": {
+      "badge": "Custom quote",
+      "title": "Complete your custom hosting order",
+      "nameLabel": "Name",
+      "namePlaceholder": "John",
+      "lastnameLabel": "Last name",
+      "lastnamePlaceholder": "Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john@example.com",
+      "quoteLabel": "Quote number",
+      "quotePlaceholder": "Ex. BF-2026-001",
+      "amountLabel": "Total amount",
+      "amountPlaceholder": "0.00"
+    },
+    "product": {
+      "name": "Special Order - Quote #{quote}",
+      "fullName": "Special Order - Quote #{quote} - {name} {lastname} : {email}"
+    },
+    "infoText": {
+      "before": "You are adding custom quote ",
+      "after": " to your cart with the previously authorized amount."
+    },
+    "buttons": {
+      "addToCart": "Add to cart",
+      "adding": "Adding..."
+    },
+    "errors": {
+      "quoteRequired": "Quote number is required.",
+      "invalidAmount": "Enter a valid amount greater than 0."
+    }
+  },
+  "store": {
+    "hero": {
+      "badge": "Professional catalog",
+      "title": "Reliable and functional medical equipment",
+      "description": "Explore clinical and medical products selected under quality, efficiency, and safety standards for hospitals, clinics, and medical offices."
+    },
+    "filters": {
+      "title": "Filters",
+      "subtitle": "Customize your search",
+      "clear": "Clear",
+      "categories": "Categories",
+      "allCategories": "All categories",
+      "priceRange": "Price range",
+      "min": "Min",
+      "max": "Max"
+    },
+    "search": {
+      "placeholder": "Search medical equipment, categories, or products...",
+      "button": "Search"
+    },
+    "sort": {
+      "name": "Name (A-Z)",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "newest": "Newest"
+    },
+    "results": {
+      "showing": "Showing",
+      "of": "of",
+      "products": "products"
+    },
+    "empty": {
+      "title": "No results found",
+      "description": "Try changing your search or resetting the filters to view more products.",
+      "button": "Reset filters"
+    },
+    "product": {
+      "noImage": "No image",
+      "new": "New",
+      "featured": "Featured",
+      "price": "Price",
+      "viewDetail": "View details"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "tax": "MXN + V.A.T"
+  },
+  "productDetail": {
+    "loadingTitle": "Loading product",
+    "loadingDescription": "We are preparing all the product information.",
+    "notFoundTitle": "Product not found",
+    "notFoundDescription": "The item you are looking for is unavailable or the link is incorrect.",
+    "backToStore": "Back to store",
+    "breadcrumbStore": "Store",
+    "noImage": "No image available",
+    "new": "New",
+    "featured": "Featured",
+    "price": "Price",
+    "description": "Product description",
+    "featureQuality": "Guaranteed quality",
+    "featureQualityDesc": "Products selected under strict clinical and operational standards.",
+    "featureShipping": "Secure shipping",
+    "featureShippingDesc": "Professional packaging and logistics to protect every delivery.",
+    "featureSupport": "Specialized support",
+    "featureSupportDesc": "Personalized assistance for hospitals, clinics and medical offices.",
+    "added": "Successfully added",
+    "addToCart": "Add to cart",
+    "cartQuantityText": "You currently have",
+    "cartQuantityUnits": "unit(s) of this product in your cart.",
+    "relatedTitle": "Related products",
+    "relatedDescription": "More options available within the same category.",
+    "viewAll": "View all products",
+    "noRelatedTitle": "No related products",
+    "noRelatedDescription": "There are currently no additional related items in this category.",
+    "viewDetail": "View detail",
+    "tax": "MXN + V.A.T"
+  },
+  "home": {
+    "hero": {
+      "title": "Where quality becomes trust",
+      "description": "We are a company focused on the distribution of medical and clinical products, selected under strict quality and functionality standards.",
+      "imageAlt": "Professional doctor"
+    },
+    "products": {
+      "title": "Commitment behind every product",
+      "description": "Medical and clinical products selected under strict quality and functionality standards.",
+      "button": "Products"
+    },
+    "payment": {
+      "title": "Custom payment",
+      "description": "Some items require a personalized quotation due to their characteristics, volume, or technical specifications.",
+      "contactButton": "Contact us",
+      "payButton": "Pay",
+      "imageAlt": "Customer service professional"
+    },
+    "contact": {
+      "title": "We are ready to assist you",
+      "description": "If you are looking for a reliable supplier with a professional approach and efficient support, you are in the right place.",
+      "phoneDescription": "Direct support for quotations, guidance, and follow-up.",
+      "button": "Contact us",
+      "imageAlt": "Professional doctor"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Excellence in hosting tailored to your needs",
+    "items": {
+      "uptime": {
+        "title": "99.99% Uptime",
+        "desc": "Reliable hosting with 99.99% uptime, ensuring your site is always online."
+      },
+      "security": {
+        "title": "Advanced Security",
+        "desc": "Cutting-edge protection that safeguards your online presence with proactive measures."
+      },
+      "scalability": {
+        "title": "Unlimited Scalability",
+        "desc": "Unlimited growth so your project can efficiently reach new heights."
+      },
+      "backups": {
+        "title": "Automatic Backups",
+        "desc": "Continuous backup of your information to keep your site protected and available in the event of any unforeseen circumstances."
+      },
+      "bandwidth": {
+        "title": "Unlimited Bandwidth",
+        "desc": "Unrestricted traffic for optimal performance at all times."
+      },
+      "ssl": {
+        "title": "Free SSL Certificate",
+        "desc": "Enhanced security with built-in SSL, providing confidence to your users."
+      }
+    }
+  },
+  "footer": {
+    "logoAlt": "Visa and Mastercard accepted",
+    "brand": "Cloud Hosting",
+    "description": "Fast, reliable and secure infrastructure designed for modern websites, applications and digital businesses.",
+    "address": "205 Homero Ave, 10th Floor, Polanco V Section, Miguel Hidalgo Borough, CP 11560, Mexico City",
+    "phone": "Phone:",
+    "email": "Email:",
+    "navigationTitle": "Navigation",
+    "legalTitle": "Legal",
+    "payments": "Payments",
+    "paymentsAlt": "Visa and Mastercard accepted",
+    "copyright": "© 2025 ByteForge. All rights reserved.",
+    "bottomText": "Built for high-performance cloud hosting.",
+    "navigation": {
+      "home": "Home",
+      "plans": "Plans",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy Notice",
+      "terms": "Terms and Conditions",
+      "returns": "Return Policy"
+    }
+  }
+}

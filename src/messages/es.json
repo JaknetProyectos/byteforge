@@ -1,0 +1,516 @@
+{
+  "header": {
+    "logoAlt": "Logo de ByteForge",
+    "brandSubtitle": "Cloud Hosting",
+    "cart": "Carrito",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "nav": {
+      "myServer": "Mi Servidor",
+      "choosePlan": "Elige tu plan",
+      "afterCloud": "Después de la Nube",
+      "contact": "Contacto"
+    }
+  },
+   "productCard": {
+    "badge": "Plan de Hosting",
+    "vat": "+ IVA",
+    "buttons": {
+      "characteristics": "Características",
+      "addToCart": "Agregar al carrito",
+      "added": "Agregado"
+    }
+  },
+  "planModal": {
+    "back": "Volver a los planes",
+    "badge": "Hosting Empresarial",
+    "startingAt": "Desde",
+    "quantity": "Cantidad",
+    "total": "Total",
+    "addToCart": "Agregar al carrito",
+    "features": {
+      "badge": "Características Incluidas",
+      "title": "Diseñado para infraestructura en producción"
+    }
+  },
+  "contactForm": {
+    "badge": "Estamos aquí para ayudarte.",
+    "title": "Punto de contacto",
+    "form": {
+      "namePlaceholder": "Nombre",
+      "emailPlaceholder": "Correo electrónico",
+      "messagePlaceholder": "Mensaje"
+    },
+    "messages": {
+      "success": "Mensaje enviado correctamente.",
+      "error": "Ocurrió un error al enviar el mensaje."
+    },
+    "buttons": {
+      "sending": "Enviando...",
+      "sent": "Mensaje enviado",
+      "send": "Enviar"
+    }
+  },
+  "storePage": {
+    "hero": {
+      "title": "Planes y precios",
+      "subtitle": "Dale a tu sitio web la excelencia que merece — ¡elige un hosting que siempre entregue lo mejor!"
+    },
+    "plans": {
+      "badge": "Planes de hosting",
+      "title": "Infraestructura diseñada para rendimiento y escalabilidad",
+      "description": "Elige la solución de hosting que mejor se adapte a tu proyecto, ya sea que estés lanzando un pequeño sitio web o escalando infraestructura empresarial."
+    },
+    "flexibility": {
+      "badge": "Flexibilidad total",
+      "title": "Crea una solución de hosting adaptada a tus necesidades",
+      "description": "Personaliza tu infraestructura, recursos y entorno de hosting según tus requerimientos exactos. Soluciones flexibles creadas para crecer.",
+      "button": "Cotiza aquí",
+      "note": "¿Necesitas infraestructura personalizada? Nuestro equipo puede ayudarte a diseñar el entorno de hosting ideal."
+    }
+  },
+  "aboutPage": {
+    "metadata": {
+      "title": "After the Cloud — ByteForge",
+      "description": "Quiénes somos y por qué lo hacemos. Dale a tu sitio web la excelencia que merece: hosting confiable, seguro y de alto rendimiento."
+    },
+    "hero": {
+      "title": "Quiénes somos y por qué lo hacemos",
+      "subtitle": "Dale a tu sitio web la excelencia que merece: hosting confiable, seguro y de alto rendimiento que impulsa tu crecimiento digital."
+    },
+    "badge": "Sobre ByteForge",
+    "sectionTitle": "Infraestructura diseñada para negocios digitales modernos",
+    "intro": {
+      "first": "Ayudamos a empresas, desarrolladores y proyectos online a construir experiencias digitales confiables mediante soluciones de hosting escalables, seguras y de alto rendimiento.",
+      "second": "Nuestro enfoque no es solo la infraestructura, sino también la estabilidad a largo plazo, la excelencia técnica y el soporte real en cada etapa del crecimiento."
+    },
+    "values": {
+      "mission": {
+        "title": "Nuestra Misión",
+        "desc": "Revolucionar el panorama digital ofreciendo soluciones de hosting robustas que permitan a empresas y proyectos crecer con innovación, seguridad y estabilidad."
+      },
+      "role": {
+        "title": "Nuestro Rol",
+        "desc": "Ser la columna tecnológica de empresas en todo el mundo, proporcionando infraestructura de última generación, máxima confiabilidad y soporte constante para que cada cliente pueda prosperar en el entorno digital."
+      },
+      "value": {
+        "title": "Nuestro Valor",
+        "desc": "Nos enfocamos en ofrecer valor real: rendimiento optimizado, seguridad avanzada y soporte personalizado. Nuestro compromiso es claro: impulsar el éxito de cada cliente en sus proyectos digitales."
+      }
+    },
+    "cta": {
+      "heading": "Comienza tu historia de éxito digital con nosotros",
+      "button": "Comenzar ahora"
+    }
+  },
+  "cta": {
+    "badge": "¿Estás listo?",
+    "heading": "Comienza aquí tu historia de éxito digital",
+    "description": "Lanza tu próximo proyecto con infraestructura segura, servidores de alto rendimiento y soluciones de hosting escalables.",
+    "buttonLabel": "Comenzar",
+    "panel": {
+      "infrastructureStatus": "Estado de la Infraestructura",
+      "operational": "Operativo",
+      "stats": {
+        "uptime": "Disponibilidad",
+        "response": "Respuesta",
+        "deployments": "Despliegues",
+        "security": "Seguridad",
+        "fast": "Rápido",
+        "active": "Activa"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Planes y Precios",
+    "title": "Planes accesibles, rendimiento premium",
+    "recommended": "Recomendado",
+    "includes": "Incluye",
+    "viewPlan": "Ver Plan"
+  },
+  "faq": {
+    "badge": "¿Tienes alguna pregunta?",
+    "title": "Preguntas Frecuentes",
+    "description": "Todo lo que necesitas saber sobre nuestra infraestructura de hosting, proceso de despliegue y servicios de soporte.",
+    "items": [
+      {
+        "q": "¿Qué tipo de hosting ofrecen?",
+        "a": "Ofrecemos soluciones de hosting compartido, VPS, servidores dedicados y cloud hosting adaptadas a distintos tipos de proyectos."
+      },
+      {
+        "q": "¿El soporte técnico está disponible 24/7?",
+        "a": "Sí, nuestro equipo de soporte está disponible las 24 horas del día, los 7 días de la semana para ayudarte cuando lo necesites."
+      },
+      {
+        "q": "¿Incluyen certificado SSL gratuito?",
+        "a": "Sí, todos nuestros planes incluyen certificados SSL gratuitos para mejorar la seguridad de tu sitio web."
+      },
+      {
+        "q": "¿Puedo escalar mi plan más adelante?",
+        "a": "Claro, puedes actualizar tu plan fácilmente a medida que tu proyecto crezca y necesite más recursos."
+      },
+      {
+        "q": "¿Realizan backups automáticos?",
+        "a": "Sí, realizamos copias de seguridad automáticas para proteger tu información y facilitar la recuperación de datos."
+      },
+      {
+        "q": "¿Qué tan rápido es el proceso de despliegue?",
+        "a": "Nuestro sistema permite despliegues instantáneos para que puedas poner en marcha tu proyecto en pocos minutos."
+      }
+    ]
+  },
+  "globalTrust": {
+    "badge": "Confianza Global",
+    "title": "Presencia digital segura",
+    "description": "Con nuestra infraestructura de alto rendimiento, garantizamos un entorno confiable para que tu sitio web opere sin interrupciones, protegido con la tecnología de seguridad más avanzada y respaldado por un equipo disponible siempre que lo necesites.",
+    "cta": "Servicios"
+  },
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Principal",
+      "summary": "1. Detalle",
+      "shippingPayment": "2. Envío y Formas de Pago"
+    },
+    "success": {
+      "title": "¡Pago Procesado Correctamente!",
+      "description": "Tu operación ha sido aprobada. El pedido de tus insumos médicos ya se está preparando para su distribución.",
+      "paymentReference": "ID de Pago:",
+      "paidAmount": "Total Abonado:",
+      "transactionStatus": "Estado de la Operación:",
+      "approved": "AUTORIZADA",
+      "backToCatalog": "Volver al Catálogo"
+    },
+    "empty": {
+      "title": "Tu carrito de compra está vacío",
+      "description": "No encontramos materiales médicos seleccionados en tu sesión de compra actual.",
+      "goToStore": "Ir al Catálogo"
+    },
+    "order": {
+      "title": "Artículos en tu pedido",
+      "clear": "Quitar Materiales"
+    },
+    "financial": {
+      "title": "Desglose Financiero",
+      "couponPlaceholder": "Cupón de descuento",
+      "applyCoupon": "Validar",
+      "appliedCoupon": "Código {code} (-{discount}%)",
+      "remove": "Eliminar",
+      "couponInvalid": "El código promocional no es válido o ha caducado.",
+      "subtotal": "Subtotal de Insumos:",
+      "discount": "Descuento Aplicado:",
+      "netTotal": "Monto Total a Pagar:",
+      "tax": "IVA {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Continuar al Pago",
+      "processing": "Verificando Fondos mediante Octano...",
+      "payAmount": "Pagar {amount}",
+      "backToCart": "Editar pedido / Agregar cupón"
+    },
+    "errors": {
+      "declined": "La operación fue rechazada por la institución bancaria.",
+      "connection": "Se detectó un fallo de comunicación con la plataforma de pagos."
+    },
+    "metadata": {
+      "couponApplied": "Código promocional activo",
+      "standardSale": "Compra digital estándar"
+    },
+    "form": {
+      "buyerTitle": "Información de Facturación / Cliente",
+      "addressTitle": "Datos de Envío y Surtido",
+      "paymentTitle": "Pasarela de Pago Protegida",
+      "firstName": "Nombre(s) *",
+      "lastName": "Apellidos *",
+      "email": "E-mail *",
+      "phone": "Teléfono Celular (10 dígitos) *",
+      "company": "Nombre de la Empresa / Clínica u Hospital (Opcional)",
+      "streetAddress": "Calle, Núm. Exterior y Número Interior *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
+      "neighborhood": "Colonia / Entre Calles (Opcional)",
+      "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
+      "city": "Delegación o Ciudad *",
+      "state": "Estado / Entidad *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Código Postal *",
+      "country": "País",
+      "mexico": "México (MX)",
+      "cardNumber": "Dígitos de la Tarjeta (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Nombre del Titular de la Tarjeta *",
+      "cardHolderPlaceholder": "Como se lee en el plástico",
+      "expiryMonth": "Mes Venc. (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Año Venc. (AAAA) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "Código de Seguridad (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Operación protegida de forma segura"
+    },
+    "images": {
+      "octanoAlt": "Octano",
+      "securePaymentAlt": "Transacción segura"
+    }
+  },
+  "hero": {
+    "title": "Hosting potente para sitios web y aplicaciones modernas",
+    "description": "Infraestructura rápida, segura y escalable diseñada para desarrolladores, empresas y proyectos online en crecimiento.",
+    "features": {
+      "uptime": "99.9% de disponibilidad",
+      "deployment": "Despliegue instantáneo",
+      "ddos": "Protección DDoS"
+    },
+    "server": {
+      "label": "Servidor Activo",
+      "status": "En línea"
+    },
+    "stats": {
+      "cpuUsage": "Uso de CPU",
+      "bandwidth": "Ancho de banda",
+      "latency": "Latencia",
+      "security": "Seguridad",
+      "protected": "Protegido"
+    },
+    "infrastructure": "Infraestructura optimizada para velocidad y confiabilidad."
+  },
+  "contactPage": {
+    "metadata": {
+      "title": "Contacto — ByteForge",
+      "description": "Estamos aquí para ayudarte. Asesoría personalizada y soluciones inmediatas: contáctanos y obtén ayuda cuando la necesites."
+    },
+    "hero": {
+      "title": "Estamos aquí para ayudarte.",
+      "subtitle": "Asesoría personalizada y soluciones inmediatas. Contáctanos y obtén ayuda cuando la necesites."
+    },
+    "badge": "Contacta a ByteForge",
+    "heading": "Ponte en contacto con nuestro equipo de infraestructura",
+    "description": "Ya sea que necesites asistencia técnica, soluciones de hosting personalizadas o guía para escalar tu infraestructura, nuestro equipo está listo para ayudarte en cada etapa.",
+    "imageAlt": "Soporte al cliente de ByteForge",
+    "cards": {
+      "liveSupport": {
+        "title": "Soporte en Vivo",
+        "value": "Escríbenos en cualquier momento para recibir asistencia inmediata."
+      },
+      "email": {
+        "title": "Correo"
+      },
+      "phone": {
+        "title": "Teléfono"
+      }
+    }
+  },
+  "about": {
+    "badge": "Sobre Nosotros",
+    "title": "Donde la experiencia se encuentra con la excelencia",
+    "description": "Experimenta un servicio incomparable donde nuestra experiencia se combina perfectamente con la excelencia, garantizando máximo rendimiento y confiabilidad para tus proyectos digitales. Descubre el hosting redefinido.",
+    "imageAlt": "El equipo de ByteForge"
+  },
+  "customPlan": {
+    "imageAlt": "Logo de ByteForge",
+    "hero": {
+      "badge": "Cotización personalizada",
+      "title": "Completa tu pedido personalizado",
+      "description": "Agrega fácilmente una cotización aprobada a tu carrito y continúa con el proceso de pago de forma segura."
+    },
+    "authorized": {
+      "badge": "Infraestructura personalizada",
+      "title": "Pedido autorizado",
+      "description": "Utiliza tu número de cotización aprobado para generar un pedido personalizado con el precio acordado previamente."
+    },
+    "summary": {
+      "title": "Pedido personalizado",
+      "description": "Configura tu cotización personalizada aprobada y agrégala directamente a tu carrito de forma segura."
+    },
+    "form": {
+      "badge": "Cotización personalizada",
+      "title": "Completa tu pedido de hosting personalizado",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Juan",
+      "lastnameLabel": "Apellido",
+      "lastnamePlaceholder": "Pérez",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "quoteLabel": "Número de cotización",
+      "quotePlaceholder": "Ej. BF-2026-001",
+      "amountLabel": "Monto total",
+      "amountPlaceholder": "0.00"
+    },
+    "product": {
+      "name": "Pedido especial - Cotización #{quote}",
+      "fullName": "Pedido especial - Cotización #{quote} - {name} {lastname} : {email}"
+    },
+    "infoText": {
+      "before": "Estás agregando la cotización personalizada ",
+      "after": " a tu carrito con el monto previamente autorizado."
+    },
+    "buttons": {
+      "addToCart": "Agregar al carrito",
+      "adding": "Agregando..."
+    },
+    "errors": {
+      "quoteRequired": "El número de cotización es obligatorio.",
+      "invalidAmount": "Ingresa un monto válido mayor a 0."
+    }
+  },
+  "store": {
+    "hero": {
+      "badge": "Suministros profesionales",
+      "title": "Equipos médicos con certificación y alta funcionalidad",
+      "description": "Revisa consumibles clínicos seleccionados con métricas de resistencia y seguridad para sanatorios, centros de salud y consultorios."
+    },
+    "filters": {
+      "title": "Búsqueda avanzada",
+      "subtitle": "Filtra tus resultados",
+      "clear": "Borrar",
+      "categories": "Secciones",
+      "allCategories": "Todas las secciones",
+      "priceRange": "Escala de precios",
+      "min": "Min",
+      "max": "Max"
+    },
+    "search": {
+      "placeholder": "Buscar consumibles, secciones o instrumental...",
+      "button": "Filtrar"
+    },
+    "sort": {
+      "name": "Alfabético (A-Z)",
+      "priceAsc": "Precio: más económico primero",
+      "priceDesc": "Precio: más costoso primero",
+      "newest": "Novedades recientes"
+    },
+    "results": {
+      "showing": "Desplegando",
+      "of": "de un total de",
+      "products": "artículos"
+    },
+    "empty": {
+      "title": "No hay coincidencias",
+      "description": "Prueba editando los términos de búsqueda o limpiando los filtros para ver más opciones.",
+      "button": "Limpiar filtros"
+    },
+    "product": {
+      "noImage": "Imagen no disponible",
+      "new": "Novedad",
+      "featured": "Destacado",
+      "price": "Costo",
+      "viewDetail": "Ver más"
+    },
+    "pagination": {
+      "previous": "Atrás",
+      "next": "Adelante"
+    },
+    "tax": "MXN + I.V.A."
+  },
+  "productDetail": {
+    "loadingTitle": "Abriendo ficha técnica",
+    "loadingDescription": "Estamos organizando la información del artículo.",
+    "notFoundTitle": "No se ubicó el artículo",
+    "notFoundDescription": "El producto solicitado no está en inventario o la dirección URL es errónea.",
+    "backToStore": "Volver al catálogo",
+    "breadcrumbStore": "Catálogo",
+    "noImage": "Fotografía no disponible",
+    "new": "Novedad",
+    "featured": "Destacado",
+    "price": "Costo",
+    "description": "Ficha del artículo",
+    "featureQuality": "Garantía clínica",
+    "featureQualityDesc": "Materiales validados bajo rigurosas pautas técnicas y médicas.",
+    "featureShipping": "Distribución protegida",
+    "featureShippingDesc": "Embalaje y transporte especializado para resguardar cada caja.",
+    "featureSupport": "Asesoría de expertos",
+    "featureSupportDesc": "Soporte personalizado para sanatorios, laboratorios y médicos.",
+    "added": "Agregado con éxito",
+    "addToCart": "Sumar al carrito",
+    "cartQuantityText": "Has seleccionado",
+    "cartQuantityUnits": "pieza(s) de este insumo en tu carrito de compra.",
+    "relatedTitle": "Artículos similares",
+    "relatedDescription": "Otras alternativas de la misma familia de productos.",
+    "viewAll": "Mostrar todo el inventario",
+    "noRelatedTitle": "Sin sugerencias similares",
+    "noRelatedDescription": "Por ahora no disponemos de otros productos dentro de esta misma sección.",
+    "viewDetail": "Ver detalles",
+    "tax": "MXN + I.V.A."
+  },
+  "home": {
+    "hero": {
+      "title": "Donde el profesionalismo genera tranquilidad",
+      "description": "Somos una empresa dedicada a la comercialización de insumos médicos y hospitalarios, elegidos mediante estrictas normas de control y funcionalidad.",
+      "imageAlt": "Especialista médica profesional"
+    },
+    "products": {
+      "title": "Garantía reflejada en cada material",
+      "description": "Consumibles hospitalarios y clínicos filtrados rigurosamente por su utilidad y altos estándares.",
+      "button": "Ver Catálogo"
+    },
+    "payment": {
+      "title": "Pagos a la medida",
+      "description": "Ciertos equipos necesitan un presupuesto personalizado debido a sus dimensiones, volumen de compra o requerimientos especiales.",
+      "contactButton": "Escríbenos",
+      "payButton": "Abonar",
+      "imageAlt": "Personal de atención médica"
+    },
+    "contact": {
+      "title": "Estamos aquí para servirte",
+      "description": "Si requieres un distribuidor serio, con perfil profesional y tiempos de respuesta rápidos, cuenta con nosotros.",
+      "phoneDescription": "Línea directa para cotizar presupuestos, asesoramiento y postventa.",
+      "button": "Escríbenos",
+      "imageAlt": "Médico especialista"
+    }
+  },
+  "features": {
+    "badge": "Características",
+    "title": "Excelencia en hosting adaptada a tus necesidades",
+    "items": {
+      "uptime": {
+        "title": "99.99% de Disponibilidad",
+        "desc": "Hosting confiable con 99.99% de disponibilidad, asegurando que tu sitio siempre esté en línea."
+      },
+      "security": {
+        "title": "Seguridad Avanzada",
+        "desc": "Protección de última generación que resguarda tu presencia online con medidas proactivas."
+      },
+      "scalability": {
+        "title": "Escalabilidad Ilimitada",
+        "desc": "Crecimiento sin límites para que tu proyecto alcance nuevas alturas de forma eficiente."
+      },
+      "backups": {
+        "title": "Backups Automáticos",
+        "desc": "Respaldo continuo de tu información para mantener tu sitio protegido y disponible ante cualquier imprevisto."
+      },
+      "bandwidth": {
+        "title": "Ancho de Banda Ilimitado",
+        "desc": "Tráfico sin restricciones para un rendimiento óptimo en todo momento."
+      },
+      "ssl": {
+        "title": "Certificado SSL Gratis",
+        "desc": "Mayor seguridad con SSL integrado, brindando confianza a tus usuarios."
+      }
+    }
+  },
+  "footer": {
+    "logoAlt": "Visa y Mastercard aceptadas",
+    "brand": "Cloud Hosting",
+    "description": "Infraestructura rápida, confiable y segura diseñada para sitios web modernos, aplicaciones y negocios digitales.",
+    "address": "Av. Homero 205, Piso 10, Col. Polanco V Sección, Alcaldía Miguel Hidalgo, CP 11560, Ciudad de México",
+    "phone": "Teléfono:",
+    "email": "Correo:",
+    "navigationTitle": "Navegación",
+    "legalTitle": "Legal",
+    "payments": "Pagos",
+    "paymentsAlt": "Visa y Mastercard aceptadas",
+    "copyright": "© 2025 ByteForge. Todos los derechos reservados.",
+    "bottomText": "Diseñado para hosting cloud de alto rendimiento.",
+    "navigation": {
+      "home": "Inicio",
+      "plans": "Planes",
+      "about": "Nosotros",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "privacy": "Aviso de Privacidad",
+      "terms": "Términos y Condiciones",
+      "returns": "Política de Reembolso"
+    }
+  }
+}
