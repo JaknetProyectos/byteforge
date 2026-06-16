@@ -5,6 +5,7 @@ import { Header } from "@/components/site/header";
 import { Footer } from "@/components/site/footer";
 import { PageHero } from "@/components/site/page-hero";
 import { ContactForm } from "@/components/site/contact-form";
+import { Link } from "@/i18n/routing";
 
 export async function generateMetadata() {
   const t = await getTranslations("contactPage.metadata");
@@ -58,9 +59,9 @@ function InfoCard({
   );
 
   return href ? (
-    <a href={href} className="block">
+    <Link href={href} className="block">
       {inner}
-    </a>
+    </Link>
   ) : (
     inner
   );
@@ -110,8 +111,8 @@ export default async function ContactPage() {
                 <InfoCard
                   icon={Mail}
                   title={t("cards.email.title")}
-                  value="tuvoz@vesperhost.com"
-                  href="mailto:tuvoz@vesperhost.com"
+                  value="tuvoz@byteforge.com.mx"
+                  href="mailto:tuvoz@byteforge.com.mx"
                 />
 
                 <InfoCard

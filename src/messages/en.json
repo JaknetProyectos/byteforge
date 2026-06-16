@@ -1,302 +1,302 @@
 {
   "header": {
-    "logoAlt": "ByteForge Logo",
+    "logoAlt": "Logo de ByteForge",
     "brandSubtitle": "Cloud Hosting",
-    "cart": "Cart",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
+    "cart": "Carrito",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
     "nav": {
-      "myServer": "My Server",
-      "choosePlan": "Choose your plan",
-      "afterCloud": "After the Cloud",
-      "contact": "Contact"
+      "myServer": "Mi Servidor",
+      "choosePlan": "Elige tu plan",
+      "afterCloud": "Después de la Nube",
+      "contact": "Contacto"
     }
   },
-  "productCard": {
-    "badge": "Hosting Plan",
-    "vat": "+ VAT",
+   "productCard": {
+    "badge": "Plan de Hosting",
+    "vat": "+ IVA",
     "buttons": {
-      "characteristics": "Characteristics",
-      "addToCart": "Add to cart",
-      "added": "Added"
+      "characteristics": "Características",
+      "addToCart": "Agregar al carrito",
+      "added": "Agregado"
     }
   },
   "planModal": {
-    "back": "Back to plans",
-    "badge": "Enterprise Hosting",
-    "startingAt": "Starting at",
-    "quantity": "Quantity",
+    "back": "Volver a los planes",
+    "badge": "Hosting Empresarial",
+    "startingAt": "Desde",
+    "quantity": "Cantidad",
     "total": "Total",
-    "addToCart": "Add to cart",
+    "addToCart": "Agregar al carrito",
     "features": {
-      "badge": "Included Features",
-      "title": "Built for production infrastructure"
+      "badge": "Características Incluidas",
+      "title": "Diseñado para infraestructura en producción"
     }
   },
   "contactForm": {
-    "badge": "We're here to help.",
-    "title": "Point of contact",
+    "badge": "Estamos aquí para ayudarte.",
+    "title": "Punto de contacto",
     "form": {
-      "namePlaceholder": "Name",
-      "emailPlaceholder": "Email",
-      "messagePlaceholder": "Message"
+      "namePlaceholder": "Nombre",
+      "emailPlaceholder": "Correo electrónico",
+      "messagePlaceholder": "Mensaje"
     },
     "messages": {
-      "success": "Message sent successfully.",
-      "error": "An error occurred while sending the message."
+      "success": "Mensaje enviado correctamente.",
+      "error": "Ocurrió un error al enviar el mensaje."
     },
     "buttons": {
-      "sending": "Sending...",
-      "sent": "Message sent",
-      "send": "Send"
+      "sending": "Enviando...",
+      "sent": "Mensaje enviado",
+      "send": "Enviar"
     }
   },
   "storePage": {
     "hero": {
-      "title": "Plans and Prices",
-      "subtitle": "Give your website the excellence it deserves — select hosting that consistently delivers the best!"
+      "title": "Planes y precios",
+      "subtitle": "Dale a tu sitio web la excelencia que merece — ¡elige un hosting que siempre entregue lo mejor!"
     },
     "plans": {
-      "badge": "Hosting Plans",
-      "title": "Infrastructure built for performance and scalability",
-      "description": "Choose the hosting solution that best fits your project, whether you are launching a small website or scaling enterprise-level infrastructure."
+      "badge": "Planes de hosting",
+      "title": "Infraestructura diseñada para rendimiento y scalabilidad",
+      "description": "Elige la solución de hosting que mejor se adapte a tu proyecto, ya sea que estés lanzando un pequeño sitio web o escalando infraestructura empresarial."
     },
     "flexibility": {
-      "badge": "Total Flexibility",
-      "title": "Create a hosting solution tailored to your needs",
-      "description": "Customize your infrastructure, resources and hosting environment according to your exact requirements. Flexible solutions built for growth.",
-      "button": "Get a quote here",
-      "note": "Need custom infrastructure? Our team can help you design the ideal hosting environment."
+      "badge": "Flexibilidad total",
+      "title": "Crea una solución de hosting adaptada a tus necesidades",
+      "description": "Personaliza tu infraestructura, recursos y entorno de hosting según tus requerimientos exactos. Soluciones flexibles creadas para crecer.",
+      "button": "Cotiza aquí",
+      "note": "¿Necesitas infraestructura personalizada? Nuestro equipo puede ayudarte a diseñar el entorno de hosting ideal."
     }
   },
   "aboutPage": {
     "metadata": {
       "title": "After the Cloud — ByteForge",
-      "description": "Who we are and why we do it. Give your website the excellence it deserves: reliable, secure, and high-performance hosting."
+      "description": "Quiénes somos y por qué lo hacemos. Dale a tu sitio web la excelencia que merece: hosting confiable, seguro y de alto rendimiento."
     },
     "hero": {
-      "title": "Who we are and why we do it",
-      "subtitle": "Give your website the excellence it deserves: reliable, secure, and high-performance hosting that fuels your digital growth."
+      "title": "Quiénes somos y por qué lo hacemos",
+      "subtitle": "Dale a tu sitio web la excelencia que merece: hosting confiable, seguro y de alto rendimiento que impulsa tu crecimiento digital."
     },
-    "badge": "About ByteForge",
-    "sectionTitle": "Infrastructure designed for modern digital businesses",
+    "badge": "Sobre ByteForge",
+    "sectionTitle": "Infraestructura diseñada para negocios digitales modernos",
     "intro": {
-      "first": "We help companies, developers and online projects build reliable digital experiences through scalable, secure and high-performance hosting solutions.",
-      "second": "Our focus is not only infrastructure, but long-term stability, technical excellence and real support for every stage of growth."
+      "first": "Ayudamos a empresas, desarrolladores y proyectos online a construir experiencias digitales confiables mediante soluciones de hosting escalables, seguras y de alto rendimiento.",
+      "second": "Nuestro enfoque no es solo la infraestructura, sino también la estabilidad a largo plazo, la excelencia técnica y el soporte real en cada etapa del crecimiento."
     },
     "values": {
       "mission": {
-        "title": "Our Mission",
-        "desc": "To revolutionize the digital landscape by offering robust hosting solutions that allow companies and projects to grow with innovation, security, and stability."
+        "title": "Nuestra Misión",
+        "desc": "Revolucionar el panorama digital ofreciendo soluciones de hosting robustas que permitan a empresas y proyectos crecer con innovación, seguridad y estabilidad."
       },
       "role": {
-        "title": "Our Role",
-        "desc": "To be the technological backbone of businesses worldwide, providing state-of-the-art infrastructure, maximum reliability, and constant support so that every customer can thrive in the digital environment."
+        "title": "Nuestro Rol",
+        "desc": "Ser la columna tecnológica de empresas en todo el mundo, proporcionando infraestructura de última generación, máxima confiabilidad y soporte constante para que cada cliente pueda prosperar en el entorno digital."
       },
       "value": {
-        "title": "Our Value",
-        "desc": "We focus on delivering real value: optimized performance, advanced security, and personalized support. Our commitment is clear: to drive the success of every client in their digital projects."
+        "title": "Nuestro Valor",
+        "desc": "Nos enfocamos en ofrecer valor real: rendimiento optimizado, seguridad avanzada y soporte personalizado. Nuestro compromiso es claro: impulsar el éxito de cada cliente en sus proyectos digitales."
       }
     },
     "cta": {
-      "heading": "Start your digital success story with us",
-      "button": "Start now"
+      "heading": "Comienza tu historia de éxito digital con nosotros",
+      "button": "Comenzar ahora"
     }
   },
   "cta": {
-    "badge": "Are you ready?",
-    "heading": "Start your digital success story here",
-    "description": "Launch your next project with secure infrastructure, high-performance servers and scalable hosting solutions.",
-    "buttonLabel": "Begin",
+    "badge": "¿Estás listo?",
+    "heading": "Comienza aquí tu historia de éxito digital",
+    "description": "Lanza tu próximo proyecto con infraestructura segura, servidores de alto rendimiento y soluciones de hosting escalables.",
+    "buttonLabel": "Comenzar",
     "panel": {
-      "infrastructureStatus": "Infrastructure Status",
-      "operational": "Operational",
+      "infrastructureStatus": "Estado de la Infraestructura",
+      "operational": "Operativo",
       "stats": {
-        "uptime": "Uptime",
-        "response": "Response",
-        "deployments": "Deployments",
-        "security": "Security",
-        "fast": "Fast",
-        "active": "Active"
+        "uptime": "Disponibilidad",
+        "response": "Respuesta",
+        "deployments": "Despliegues",
+        "security": "Seguridad",
+        "fast": "Rápido",
+        "active": "Activa"
       }
     }
   },
-  "globalTrust": {
-    "badge": "Global Trust",
-    "title": "Secure digital presence",
-    "description": "With our high-performance infrastructure, we guarantee a reliable environment for your website to operate without interruption, protected with the most advanced security technology and supported by a team available whenever you need it.",
-    "cta": "Services"
-  },
   "pricing": {
-    "badge": "Plans and Prices",
-    "title": "Affordable plans, premium performance",
-    "recommended": "Recommended",
-    "includes": "Includes",
-    "viewPlan": "View Plan"
+    "badge": "Planes y Precios",
+    "title": "Planes accesibles, rendimiento premium",
+    "recommended": "Recomendado",
+    "includes": "Incluye",
+    "viewPlan": "Ver Plan"
   },
   "faq": {
-    "badge": "Do you have any questions?",
-    "title": "Frequently Asked Questions",
-    "description": "Everything you need to know about our hosting infrastructure, deployment process and support services.",
+    "badge": "¿Tienes alguna pregunta?",
+    "title": "Preguntas Frecuentes",
+    "description": "Todo lo que necesitas saber sobre nuestra infraestructura de hosting, proceso de despliegue y servicios de soporte.",
     "items": [
       {
-        "q": "What type of hosting do you offer?",
-        "a": "We offer shared hosting, VPS, dedicated servers and cloud hosting solutions tailored to different kinds of projects."
+        "q": "¿Qué tipo de hosting ofrecen?",
+        "a": "Ofrecemos soluciones de hosting compartido, VPS, servidores dedicados y cloud hosting adaptadas a distintos tipos de proyectos."
       },
       {
-        "q": "Is technical support available 24/7?",
-        "a": "Yes, our support team is available 24/7 to help you whenever you need assistance."
+        "q": "¿El soporte técnico está disponible 24/7?",
+        "a": "Sí, nuestro equipo de soporte está disponible las 24 horas del día, los 7 días de la semana para ayudarte cuando lo necesites."
       },
       {
-        "q": "Do your plans include a free SSL certificate?",
-        "a": "Yes, all our plans include free SSL certificates to improve your website security."
+        "q": "¿Incluyen certificado SSL gratuito?",
+        "a": "Sí, todos nuestros planes incluyen certificados SSL gratuitos para mejorar la seguridad de tu sitio web."
       },
       {
-        "q": "Can I scale my plan later?",
-        "a": "Absolutely, you can easily upgrade your plan as your project grows and requires more resources."
+        "q": "¿Puedo escalar mi plan más adelante?",
+        "a": "Claro, puedes actualizar tu plan fácilmente a medida que tu proyecto crezca y necesite más recursos."
       },
       {
-        "q": "Do you provide automatic backups?",
-        "a": "Yes, we perform automatic backups to protect your information and simplify data recovery."
+        "q": "¿Realizan backups automáticos?",
+        "a": "Sí, realizamos copias de seguridad automáticas para proteger tu información y facilitar la recuperación de datos."
       },
       {
-        "q": "How fast is the deployment process?",
-        "a": "Our system allows instant deployments so you can launch your project within minutes."
+        "q": "¿Qué tan rápido es el proceso de despliegue?",
+        "a": "Nuestro sistema permite despliegues instantáneos para que puedas poner en marcha tu proyecto en pocos minutos."
       }
     ]
   },
+  "globalTrust": {
+    "badge": "Confianza Global",
+    "title": "Presencia digital segura",
+    "description": "Con nuestra infraestructura de alto rendimiento, garantizamos un entorno confiable para que tu sitio web opere sin interrupciones, protegido con la tecnología de seguridad más avanzada y respaldado por un equipo disponible siempre que lo necesites.",
+    "cta": "Servicios"
+  },
   "cartPage": {
     "breadcrumb": {
-      "home": "Home",
-      "summary": "1. Summary",
-      "shippingPayment": "2. Shipping and Payment Details"
+      "home": "Principal",
+      "summary": "1. Detalle",
+      "shippingPayment": "2. Envío y Formas de Pago"
     },
     "success": {
-      "title": "Payment Processed Successfully!",
-      "description": "Your transaction has been authorized. The record of your medical order is now being prepared.",
-      "paymentReference": "Payment Reference:",
-      "paidAmount": "Paid Amount:",
-      "transactionStatus": "Transaction Status:",
-      "approved": "APPROVED",
-      "backToCatalog": "Back to Catalog"
+      "title": "¡Pago Procesado Correctamente!",
+      "description": "Tu operación ha sido aprobada. El entorno cloud de tu plan de hosting ya se está configurando para su activación.",
+      "paymentReference": "ID de Pago:",
+      "paidAmount": "Total Abonado:",
+      "transactionStatus": "Estado de la Operación:",
+      "approved": "AUTORIZADA",
+      "backToCatalog": "Volver al Catálogo"
     },
     "empty": {
-      "title": "Your cart is empty",
-      "description": "We could not detect any medical supplies in your current checkout session.",
-      "goToStore": "Go to Store"
+      "title": "Tu carrito de compra está vacío",
+      "description": "No encontramos servicios de hosting seleccionados en tu sesión de compra actual.",
+      "goToStore": "Ir al Catálogo"
     },
     "order": {
-      "title": "Items in Your Order",
-      "clear": "Clear Items"
+      "title": "Artículos en tu pedido",
+      "clear": "Quitar Planes"
     },
     "financial": {
-      "title": "Financial Summary",
-      "couponPlaceholder": "Discount code",
-      "applyCoupon": "Apply",
-      "appliedCoupon": "Coupon {code} (-{discount}%)",
-      "remove": "Remove",
-      "couponInvalid": "The coupon code you entered is invalid or has expired.",
-      "subtotal": "Subtotal:",
-      "discount": "Discount Applied:",
-      "netTotal": "Net Total Due:",
-      "tax": "VAT {tax}"
+      "title": "Desglose Financiero",
+      "couponPlaceholder": "Cupón de descuento",
+      "applyCoupon": "Validar",
+      "appliedCoupon": "Código {code} (-{discount}%)",
+      "remove": "Eliminar",
+      "couponInvalid": "El código promocional no es válido o ha caducado.",
+      "subtotal": "Subtotal de Hosting:",
+      "discount": "Descuento Aplicado:",
+      "netTotal": "Monto Total a Pagar:",
+      "tax": "IVA {tax}"
     },
     "actions": {
-      "proceedToPayment": "Proceed to Payment Form",
-      "processing": "Verifying Funds with Octano...",
-      "payAmount": "Pay {amount}",
-      "backToCart": "Modify my order / Apply coupon"
+      "proceedToPayment": "Continuar al Pago",
+      "processing": "Verificando Fondos mediante Octano...",
+      "payAmount": "Pagar {amount}",
+      "backToCart": "Editar pedido / Agregar cupón"
     },
     "errors": {
-      "declined": "The transaction was declined by the issuing bank.",
-      "connection": "A critical connection error occurred with the payment server."
+      "declined": "La operación fue rechazada por la institución bancaria.",
+      "connection": "Se detectó un fallo de comunicación con la plataforma de pagos."
     },
     "metadata": {
-      "couponApplied": "Coupon applied",
-      "standardSale": "Standard web sale"
+      "couponApplied": "Código promocional activo",
+      "standardSale": "Compra digital estándar"
     },
     "form": {
-      "buyerTitle": "Buyer / Tax Information",
-      "addressTitle": "Shipping and Destination Address",
-      "paymentTitle": "Encrypted Payment Gateway",
-      "firstName": "First Name *",
-      "lastName": "Last Name *",
-      "email": "Email Address *",
-      "phone": "Mobile Phone (10 digits) *",
-      "company": "Business / Clinic / Hospital Name (Optional)",
-      "streetAddress": "Street, Exterior Number and Interior Number *",
-      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
-      "neighborhood": "Neighborhood / Cross Streets (Optional)",
-      "neighborhoodPlaceholder": "Vértiz Narvarte",
-      "city": "City *",
-      "state": "State *",
-      "statePlaceholder": "Mexico City",
-      "postalCode": "ZIP / Postal Code *",
-      "country": "Country",
-      "mexico": "Mexico (MX)",
-      "cardNumber": "Card Number (Visa / Mastercard) *",
+      "buyerTitle": "Información de Facturación / Cliente",
+      "addressTitle": "Datos de Contacto y Activación",
+      "paymentTitle": "Pasarela de Pago Protegida",
+      "firstName": "Nombre(s) *",
+      "lastName": "Apellidos *",
+      "email": "E-mail *",
+      "phone": "Teléfono Celular (10 dígitos) *",
+      "company": "Nombre de la Empresa / Organización (Opcional)",
+      "streetAddress": "Calle, Núm. Exterior y Número Interior *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
+      "neighborhood": "Colonia / Entre Calles (Opcional)",
+      "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
+      "city": "Delegación o Ciudad *",
+      "state": "Estado / Entidad *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Código Postal *",
+      "country": "País",
+      "mexico": "México (MX)",
+      "cardNumber": "Dígitos de la Tarjeta (Visa / Mastercard) *",
       "cardNumberPlaceholder": "4152 0000 0000 0000",
-      "cardHolderName": "Cardholder Full Name *",
-      "cardHolderPlaceholder": "As it appears on the card",
-      "expiryMonth": "Exp. Month (MM) *",
+      "cardHolderName": "Nombre del Titular de la Tarjeta *",
+      "cardHolderPlaceholder": "Como se lee en el plástico",
+      "expiryMonth": "Mes Venc. (MM) *",
       "expiryMonthPlaceholder": "05",
-      "expiryYear": "Exp. Year (YYYY) *",
+      "expiryYear": "Año Venc. (AAAA) *",
       "expiryYearPlaceholder": "2029",
-      "cvv": "CVV / CVC *",
+      "cvv": "Código de Seguridad (CVV) *",
       "cvvPlaceholder": "•••"
     },
     "security": {
-      "note": "Encrypted Transaction"
+      "note": "Operación protegida de forma segura"
     },
     "images": {
       "octanoAlt": "Octano",
-      "securePaymentAlt": "Secure payment"
+      "securePaymentAlt": "Transacción segura"
     }
   },
   "hero": {
-    "title": "Powerful hosting for modern websites and applications",
-    "description": "Fast, secure and scalable infrastructure designed for developers, businesses and growing online projects.",
+    "title": "Hosting potente para sitios web y aplicaciones modernas",
+    "description": "Infraestructura rápida, segura y escalable diseñada para desarrolladores, empresas y proyectos online en crecimiento.",
     "features": {
-      "uptime": "99.9% uptime",
-      "deployment": "Instant deployment",
-      "ddos": "DDoS protection"
+      "uptime": "99.9% de disponibilidad",
+      "deployment": "Despliegue instantáneo",
+      "ddos": "Protección DDoS"
     },
     "server": {
-      "label": "Active Server",
-      "status": "Online"
+      "label": "Servidor Activo",
+      "status": "En línea"
     },
     "stats": {
-      "cpuUsage": "CPU Usage",
-      "bandwidth": "Bandwidth",
-      "latency": "Latency",
-      "security": "Security",
-      "protected": "Protected"
+      "cpuUsage": "Uso de CPU",
+      "bandwidth": "Ancho de banda",
+      "latency": "Latencia",
+      "security": "Seguridad",
+      "protected": "Protegido"
     },
-    "infrastructure": "Infrastructure optimized for speed and reliability."
+    "infrastructure": "Infraestructura optimizada para velocidad y confiabilidad."
   },
   "contactPage": {
     "metadata": {
-      "title": "Contact — ByteForge",
-      "description": "We are here to help you. Personalized advice and immediate solutions — contact us and get help when you need it."
+      "title": "Contacto — ByteForge",
+      "description": "Estamos aquí para ayudarte. Asesoría personalizada y soluciones inmediatas: contáctanos y obtén ayuda cuando la necesites."
     },
     "hero": {
-      "title": "We are here to help you.",
-      "subtitle": "Personalized advice and immediate solutions. Contact us and get help when you need it."
+      "title": "Estamos aquí para ayudarte.",
+      "subtitle": "Asesoría personalizada y soluciones inmediatas. Contáctanos y obtén ayuda cuando la necesites."
     },
-    "badge": "Contact ByteForge",
-    "heading": "Get in touch with our infrastructure team",
-    "description": "Whether you need technical assistance, custom hosting solutions or guidance for scaling your infrastructure, our team is ready to help you every step of the way.",
-    "imageAlt": "ByteForge customer support",
+    "badge": "Contacta a ByteForge",
+    "heading": "Ponte en contacto con nuestro equipo de infraestructura",
+    "description": "Ya sea que necesites asistencia técnica, soluciones de hosting personalizadas o guía para escalar tu infraestructura, nuestro equipo está listo para ayudarte en cada etapa.",
+    "imageAlt": "Soporte al cliente de ByteForge",
     "cards": {
       "liveSupport": {
-        "title": "Live Support",
-        "value": "Write to us anytime for immediate assistance."
+        "title": "Soporte en Vivo",
+        "value": "Escríbenos en cualquier momento para recibir asistencia inmediata."
       },
       "email": {
-        "title": "Email"
+        "title": "Correo"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Teléfono"
       }
     }
   },
@@ -307,210 +307,210 @@
     "imageAlt": "El equipo de ByteForge"
   },
   "customPlan": {
-    "imageAlt": "ByteForge logo",
+    "imageAlt": "Logo de ByteForge",
     "hero": {
-      "badge": "Custom quote",
-      "title": "Complete your custom order",
-      "description": "Easily add an approved quote to your cart and continue securely with the checkout process."
+      "badge": "Cotización personalizada",
+      "title": "Completa tu pedido personalizado",
+      "description": "Agrega fácilmente una cotización aprobada a tu carrito y continúa con el proceso de pago de forma segura."
     },
     "authorized": {
-      "badge": "Custom infrastructure",
-      "title": "Authorized order",
-      "description": "Use your approved quote number to generate a personalized order with the previously agreed pricing."
+      "badge": "Infraestructura personalizada",
+      "title": "Pedido autorizado",
+      "description": "Utiliza tu número de cotización aprobado para generar un pedido personalizado con el precio acordado previamente."
     },
     "summary": {
-      "title": "Personalized order",
-      "description": "Configure your approved custom quote and add it directly to your cart securely."
+      "title": "Pedido personalizado",
+      "description": "Configura tu cotización personalizada aprobada y agrégala directamente a tu carrito de forma segura."
     },
     "form": {
-      "badge": "Custom quote",
-      "title": "Complete your custom hosting order",
-      "nameLabel": "Name",
-      "namePlaceholder": "John",
-      "lastnameLabel": "Last name",
-      "lastnamePlaceholder": "Doe",
-      "emailLabel": "Email",
-      "emailPlaceholder": "john@example.com",
-      "quoteLabel": "Quote number",
-      "quotePlaceholder": "Ex. BF-2026-001",
-      "amountLabel": "Total amount",
+      "badge": "Cotización personalizada",
+      "title": "Completa tu pedido de hosting personalizado",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Juan",
+      "lastnameLabel": "Apellido",
+      "lastnamePlaceholder": "Pérez",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "quoteLabel": "Número de cotización",
+      "quotePlaceholder": "Ej. BF-2026-001",
+      "amountLabel": "Monto total",
       "amountPlaceholder": "0.00"
     },
     "product": {
-      "name": "Special Order - Quote #{quote}",
-      "fullName": "Special Order - Quote #{quote} - {name} {lastname} : {email}"
+      "name": "Pedido especial - Cotización #{quote}",
+      "fullName": "Pedido especial - Cotización #{quote} - {name} {lastname} : {email}"
     },
     "infoText": {
-      "before": "You are adding custom quote ",
-      "after": " to your cart with the previously authorized amount."
+      "before": "Estás agregando la cotización personalizada ",
+      "after": " a tu carrito con el monto previamente autorizado."
     },
     "buttons": {
-      "addToCart": "Add to cart",
-      "adding": "Adding..."
+      "addToCart": "Agregar al carrito",
+      "adding": "Agregando..."
     },
     "errors": {
-      "quoteRequired": "Quote number is required.",
-      "invalidAmount": "Enter a valid amount greater than 0."
+      "quoteRequired": "El número de cotización es obligatorio.",
+      "invalidAmount": "Ingresa un monto válido mayor a 0."
     }
   },
   "store": {
     "hero": {
-      "badge": "Professional catalog",
-      "title": "Reliable and functional medical equipment",
-      "description": "Explore clinical and medical products selected under quality, efficiency, and safety standards for hospitals, clinics, and medical offices."
+      "badge": "Suministros profesionales",
+      "title": "Servidores web con certificación y alta funcionalidad",
+      "description": "Revisa configuraciones cloud seleccionadas con métricas de resistencia y seguridad para startups, centros de datos y desarrolladores."
     },
     "filters": {
-      "title": "Filters",
-      "subtitle": "Customize your search",
-      "clear": "Clear",
-      "categories": "Categories",
-      "allCategories": "All categories",
-      "priceRange": "Price range",
+      "title": "Búsqueda avanzada",
+      "subtitle": "Filtra tus resultados",
+      "clear": "Borrar",
+      "categories": "Secciones",
+      "allCategories": "Todas las secciones",
+      "priceRange": "Escala de precios",
       "min": "Min",
       "max": "Max"
     },
     "search": {
-      "placeholder": "Search medical equipment, categories, or products...",
-      "button": "Search"
+      "placeholder": "Buscar servidores, secciones o recursos...",
+      "button": "Filtrar"
     },
     "sort": {
-      "name": "Name (A-Z)",
-      "priceAsc": "Price: low to high",
-      "priceDesc": "Price: high to low",
-      "newest": "Newest"
+      "name": "Alfabético (A-Z)",
+      "priceAsc": "Precio: más económico primero",
+      "priceDesc": "Precio: más costoso primero",
+      "newest": "Novedades recientes"
     },
     "results": {
-      "showing": "Showing",
-      "of": "of",
-      "products": "products"
+      "showing": "Desplegando",
+      "of": "de un total de",
+      "products": "artículos"
     },
     "empty": {
-      "title": "No results found",
-      "description": "Try changing your search or resetting the filters to view more products.",
-      "button": "Reset filters"
+      "title": "No hay coincidencias",
+      "description": "Prueba editando los términos de búsqueda o limpiando los filtros para ver más opciones.",
+      "button": "Limpiar filtros"
     },
     "product": {
-      "noImage": "No image",
-      "new": "New",
-      "featured": "Featured",
-      "price": "Price",
-      "viewDetail": "View details"
+      "noImage": "Imagen no disponible",
+      "new": "Novedad",
+      "featured": "Destacado",
+      "price": "Costo",
+      "viewDetail": "Ver más"
     },
     "pagination": {
-      "previous": "Previous",
-      "next": "Next"
+      "previous": "Atrás",
+      "next": "Adelante"
     },
-    "tax": "MXN + V.A.T"
+    "tax": "MXN + I.V.A."
   },
   "productDetail": {
-    "loadingTitle": "Loading product",
-    "loadingDescription": "We are preparing all the product information.",
-    "notFoundTitle": "Product not found",
-    "notFoundDescription": "The item you are looking for is unavailable or the link is incorrect.",
-    "backToStore": "Back to store",
-    "breadcrumbStore": "Store",
-    "noImage": "No image available",
-    "new": "New",
-    "featured": "Featured",
-    "price": "Price",
-    "description": "Product description",
-    "featureQuality": "Guaranteed quality",
-    "featureQualityDesc": "Products selected under strict clinical and operational standards.",
-    "featureShipping": "Secure shipping",
-    "featureShippingDesc": "Professional packaging and logistics to protect every delivery.",
-    "featureSupport": "Specialized support",
-    "featureSupportDesc": "Personalized assistance for hospitals, clinics and medical offices.",
-    "added": "Successfully added",
-    "addToCart": "Add to cart",
-    "cartQuantityText": "You currently have",
-    "cartQuantityUnits": "unit(s) of this product in your cart.",
-    "relatedTitle": "Related products",
-    "relatedDescription": "More options available within the same category.",
-    "viewAll": "View all products",
-    "noRelatedTitle": "No related products",
-    "noRelatedDescription": "There are currently no additional related items in this category.",
-    "viewDetail": "View detail",
-    "tax": "MXN + V.A.T"
+    "loadingTitle": "Abriendo ficha técnica",
+    "loadingDescription": "Estamos organizando la información del artículo.",
+    "notFoundTitle": "No se ubicó el artículo",
+    "notFoundDescription": "El producto solicitado no está en inventario o la dirección URL es errónea.",
+    "backToStore": "Volver al catálogo",
+    "breadcrumbStore": "Catálogo",
+    "noImage": "Fotografía no disponible",
+    "new": "Novedad",
+    "featured": "Destacado",
+    "price": "Costo",
+    "description": "Ficha del artículo",
+    "featureQuality": "Garantía tecnológica",
+    "featureQualityDesc": "Infraestructura validada bajo rigurosas pautas técnicas y de ingeniería web.",
+    "featureShipping": "Aprovisionamiento inmediato",
+    "featureShippingDesc": "Despliegue automatizado y configuración especializada para resguardar cada entorno cloud.",
+    "featureSupport": "Asesoría de expertos",
+    "featureSupportDesc": "Soporte personalizado para empresas, plataformas web y desarrolladores.",
+    "added": "Agregado con éxito",
+    "addToCart": "Sumar al carrito",
+    "cartQuantityText": "Has seleccionado",
+    "cartQuantityUnits": "licencia(s) de este servicio en tu carrito de compra.",
+    "relatedTitle": "Artículos similares",
+    "relatedDescription": "Otras alternativas de la misma familia de productos.",
+    "viewAll": "Mostrar todo el inventario",
+    "noRelatedTitle": "Sin sugerencias similares",
+    "noRelatedDescription": "Por ahora no disponemos de otros productos dentro de esta misma sección.",
+    "viewDetail": "Ver detalles",
+    "tax": "MXN + I.V.A."
   },
   "home": {
     "hero": {
-      "title": "Where quality becomes trust",
-      "description": "We are a company focused on the distribution of medical and clinical products, selected under strict quality and functionality standards.",
-      "imageAlt": "Professional doctor"
+      "title": "Donde el profesionalismo genera tranquilidad",
+      "description": "Somos una empresa dedicada a la comercialización de servicios de hosting e infraestructura en la nube, elegidos mediante estrictas normas de control y funcionalidad.",
+      "imageAlt": "Especialista en servidores profesionales"
     },
     "products": {
-      "title": "Commitment behind every product",
-      "description": "Medical and clinical products selected under strict quality and functionality standards.",
-      "button": "Products"
+      "title": "Garantía reflejada en cada servidor",
+      "description": "Planes web y entornos cloud filtrados rigurosamente por su utilidad y altos estándares.",
+      "button": "Ver Catálogo"
     },
     "payment": {
-      "title": "Custom payment",
-      "description": "Some items require a personalized quotation due to their characteristics, volume, or technical specifications.",
-      "contactButton": "Contact us",
-      "payButton": "Pay",
-      "imageAlt": "Customer service professional"
+      "title": "Pagos a la medida",
+      "description": "Ciertos entornos necesitan un presupuesto personalizado debido a sus dimensiones, volumen de recursos o requerimientos especiales.",
+      "contactButton": "Escríbenos",
+      "payButton": "Abonar",
+      "imageAlt": "Personal de atención técnica"
     },
     "contact": {
-      "title": "We are ready to assist you",
-      "description": "If you are looking for a reliable supplier with a professional approach and efficient support, you are in the right place.",
-      "phoneDescription": "Direct support for quotations, guidance, and follow-up.",
-      "button": "Contact us",
-      "imageAlt": "Professional doctor"
+      "title": "Estamos aquí para servirte",
+      "description": "Si requieres un proveedor serio, con perfil profesional y tiempos de respuesta rápidos, cuenta con nosotros.",
+      "phoneDescription": "Línea directa para cotizar presupuestos, asesoramiento y postventa.",
+      "button": "Escríbenos",
+      "imageAlt": "Ingeniero especialista en hosting"
     }
   },
   "features": {
-    "badge": "Features",
-    "title": "Excellence in hosting tailored to your needs",
+    "badge": "Características",
+    "title": "Excelencia en hosting adaptada a tus necesidades",
     "items": {
       "uptime": {
-        "title": "99.99% Uptime",
-        "desc": "Reliable hosting with 99.99% uptime, ensuring your site is always online."
+        "title": "99.99% de Disponibilidad",
+        "desc": "Hosting confiable con 99.99% de disponibilidad, asegurando que tu sitio siempre esté en línea."
       },
       "security": {
-        "title": "Advanced Security",
-        "desc": "Cutting-edge protection that safeguards your online presence with proactive measures."
+        "title": "Seguridad Avanzada",
+        "desc": "Protección de última generación que resguarda tu presencia online con medidas proactivas."
       },
       "scalability": {
-        "title": "Unlimited Scalability",
-        "desc": "Unlimited growth so your project can efficiently reach new heights."
+        "title": "Escalabilidad Ilimitada",
+        "desc": "Crecimiento sin límites para que tu proyecto alcance nuevas alturas de forma eficiente."
       },
       "backups": {
-        "title": "Automatic Backups",
-        "desc": "Continuous backup of your information to keep your site protected and available in the event of any unforeseen circumstances."
+        "title": "Backups Automáticos",
+        "desc": "Respaldo continuo de tu información para mantener tu sitio protegido y disponible ante cualquier imprevisto."
       },
       "bandwidth": {
-        "title": "Unlimited Bandwidth",
-        "desc": "Unrestricted traffic for optimal performance at all times."
+        "title": "Ancho de Banda Ilimitado",
+        "desc": "Tráfico sin restricciones para un rendimiento óptimo en todo momento."
       },
       "ssl": {
-        "title": "Free SSL Certificate",
-        "desc": "Enhanced security with built-in SSL, providing confidence to your users."
+        "title": "Certificado SSL Gratis",
+        "desc": "Mayor seguridad con SSL integrado, brindando confianza a tus usuarios."
       }
     }
   },
   "footer": {
-    "logoAlt": "Visa and Mastercard accepted",
+    "logoAlt": "Visa y Mastercard aceptadas",
     "brand": "Cloud Hosting",
-    "description": "Fast, reliable and secure infrastructure designed for modern websites, applications and digital businesses.",
-    "address": "205 Homero Ave, 10th Floor, Polanco V Section, Miguel Hidalgo Borough, CP 11560, Mexico City",
-    "phone": "Phone:",
-    "email": "Email:",
-    "navigationTitle": "Navigation",
+    "description": "Infraestructura rápida, confiable y segura diseñada para sitios web modernos, aplicaciones y negocios digitales.",
+    "address": "Av. Homero 205, Piso 10, Col. Polanco V Sección, Alcaldía Miguel Hidalgo, CP 11560, Ciudad de México",
+    "phone": "Teléfono:",
+    "email": "Correo:",
+    "navigationTitle": "Navegación",
     "legalTitle": "Legal",
-    "payments": "Payments",
-    "paymentsAlt": "Visa and Mastercard accepted",
-    "copyright": "© 2025 ByteForge. All rights reserved.",
-    "bottomText": "Built for high-performance cloud hosting.",
+    "payments": "Pagos",
+    "paymentsAlt": "Visa y Mastercard aceptadas",
+    "copyright": "© 2025 ByteForge. Todos los derechos reservados.",
+    "bottomText": "Diseñado para hosting cloud de alto rendimiento.",
     "navigation": {
-      "home": "Home",
-      "plans": "Plans",
-      "about": "About",
-      "contact": "Contact"
+      "home": "Inicio",
+      "plans": "Planes",
+      "about": "Nosotros",
+      "contact": "Contacto"
     },
     "legal": {
-      "privacy": "Privacy Notice",
-      "terms": "Terms and Conditions",
-      "returns": "Return Policy"
+      "privacy": "Aviso de Privacidad",
+      "terms": "Términos y Condiciones",
+      "returns": "Política de Reembolso"
     }
   }
 }

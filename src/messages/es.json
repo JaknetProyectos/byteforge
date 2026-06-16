@@ -58,7 +58,7 @@
     },
     "plans": {
       "badge": "Planes de hosting",
-      "title": "Infraestructura diseñada para rendimiento y escalabilidad",
+      "title": "Infraestructura diseñada para rendimiento y scalabilidad",
       "description": "Elige la solución de hosting que mejor se adapte a tu proyecto, ya sea que estés lanzando un pequeño sitio web o escalando infraestructura empresarial."
     },
     "flexibility": {
@@ -173,7 +173,7 @@
     },
     "success": {
       "title": "¡Pago Procesado Correctamente!",
-      "description": "Tu operación ha sido aprobada. El pedido de tus insumos médicos ya se está preparando para su distribución.",
+      "description": "Tu operación ha sido aprobada. El entorno cloud de tu plan de hosting ya se está configurando para su activación.",
       "paymentReference": "ID de Pago:",
       "paidAmount": "Total Abonado:",
       "transactionStatus": "Estado de la Operación:",
@@ -182,12 +182,12 @@
     },
     "empty": {
       "title": "Tu carrito de compra está vacío",
-      "description": "No encontramos materiales médicos seleccionados en tu sesión de compra actual.",
+      "description": "No encontramos servicios de hosting seleccionados en tu sesión de compra actual.",
       "goToStore": "Ir al Catálogo"
     },
     "order": {
       "title": "Artículos en tu pedido",
-      "clear": "Quitar Materiales"
+      "clear": "Quitar Planes"
     },
     "financial": {
       "title": "Desglose Financiero",
@@ -196,7 +196,7 @@
       "appliedCoupon": "Código {code} (-{discount}%)",
       "remove": "Eliminar",
       "couponInvalid": "El código promocional no es válido o ha caducado.",
-      "subtotal": "Subtotal de Insumos:",
+      "subtotal": "Subtotal de Hosting:",
       "discount": "Descuento Aplicado:",
       "netTotal": "Monto Total a Pagar:",
       "tax": "IVA {tax}"
@@ -217,13 +217,13 @@
     },
     "form": {
       "buyerTitle": "Información de Facturación / Cliente",
-      "addressTitle": "Datos de Envío y Surtido",
+      "addressTitle": "Datos de Contacto y Activación",
       "paymentTitle": "Pasarela de Pago Protegida",
       "firstName": "Nombre(s) *",
       "lastName": "Apellidos *",
       "email": "E-mail *",
       "phone": "Teléfono Celular (10 dígitos) *",
-      "company": "Nombre de la Empresa / Clínica u Hospital (Opcional)",
+      "company": "Nombre de la Empresa / Organización (Opcional)",
       "streetAddress": "Calle, Núm. Exterior y Número Interior *",
       "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
       "neighborhood": "Colonia / Entre Calles (Opcional)",
@@ -356,8 +356,8 @@
   "store": {
     "hero": {
       "badge": "Suministros profesionales",
-      "title": "Equipos médicos con certificación y alta funcionalidad",
-      "description": "Revisa consumibles clínicos seleccionados con métricas de resistencia y seguridad para sanatorios, centros de salud y consultorios."
+      "title": "Servidores web con certificación y alta funcionalidad",
+      "description": "Revisa configuraciones cloud seleccionadas con métricas de resistencia y seguridad para startups, centros de datos y desarrolladores."
     },
     "filters": {
       "title": "Búsqueda avanzada",
@@ -370,7 +370,7 @@
       "max": "Max"
     },
     "search": {
-      "placeholder": "Buscar consumibles, secciones o instrumental...",
+      "placeholder": "Buscar servidores, secciones o recursos...",
       "button": "Filtrar"
     },
     "sort": {
@@ -414,16 +414,16 @@
     "featured": "Destacado",
     "price": "Costo",
     "description": "Ficha del artículo",
-    "featureQuality": "Garantía clínica",
-    "featureQualityDesc": "Materiales validados bajo rigurosas pautas técnicas y médicas.",
-    "featureShipping": "Distribución protegida",
-    "featureShippingDesc": "Embalaje y transporte especializado para resguardar cada caja.",
+    "featureQuality": "Garantía tecnológica",
+    "featureQualityDesc": "Infraestructura validada bajo rigurosas pautas técnicas y de ingeniería web.",
+    "featureShipping": "Aprovisionamiento inmediato",
+    "featureShippingDesc": "Despliegue automatizado y configuración especializada para resguardar cada entorno cloud.",
     "featureSupport": "Asesoría de expertos",
-    "featureSupportDesc": "Soporte personalizado para sanatorios, laboratorios y médicos.",
+    "featureSupportDesc": "Soporte personalizado para empresas, plataformas web y desarrolladores.",
     "added": "Agregado con éxito",
     "addToCart": "Sumar al carrito",
     "cartQuantityText": "Has seleccionado",
-    "cartQuantityUnits": "pieza(s) de este insumo en tu carrito de compra.",
+    "cartQuantityUnits": "licencia(s) de este servicio en tu carrito de compra.",
     "relatedTitle": "Artículos similares",
     "relatedDescription": "Otras alternativas de la misma familia de productos.",
     "viewAll": "Mostrar todo el inventario",
@@ -435,27 +435,27 @@
   "home": {
     "hero": {
       "title": "Donde el profesionalismo genera tranquilidad",
-      "description": "Somos una empresa dedicada a la comercialización de insumos médicos y hospitalarios, elegidos mediante estrictas normas de control y funcionalidad.",
-      "imageAlt": "Especialista médica profesional"
+      "description": "Somos una empresa dedicada a la comercialización de servicios de hosting e infraestructura en la nube, elegidos mediante estrictas normas de control y funcionalidad.",
+      "imageAlt": "Especialista en servidores profesionales"
     },
     "products": {
-      "title": "Garantía reflejada en cada material",
-      "description": "Consumibles hospitalarios y clínicos filtrados rigurosamente por su utilidad y altos estándares.",
+      "title": "Garantía reflejada en cada servidor",
+      "description": "Planes web y entornos cloud filtrados rigurosamente por su utilidad y altos estándares.",
       "button": "Ver Catálogo"
     },
     "payment": {
       "title": "Pagos a la medida",
-      "description": "Ciertos equipos necesitan un presupuesto personalizado debido a sus dimensiones, volumen de compra o requerimientos especiales.",
+      "description": "Ciertos entornos necesitan un presupuesto personalizado debido a sus dimensiones, volumen de recursos o requerimientos especiales.",
       "contactButton": "Escríbenos",
       "payButton": "Abonar",
-      "imageAlt": "Personal de atención médica"
+      "imageAlt": "Personal de atención técnica"
     },
     "contact": {
       "title": "Estamos aquí para servirte",
-      "description": "Si requieres un distribuidor serio, con perfil profesional y tiempos de respuesta rápidos, cuenta con nosotros.",
+      "description": "Si requieres un proveedor serio, con perfil profesional y tiempos de respuesta rápidos, cuenta con nosotros.",
       "phoneDescription": "Línea directa para cotizar presupuestos, asesoramiento y postventa.",
       "button": "Escríbenos",
-      "imageAlt": "Médico especialista"
+      "imageAlt": "Ingeniero especialista en hosting"
     }
   },
   "features": {

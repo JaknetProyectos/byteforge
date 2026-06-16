@@ -7,6 +7,7 @@ import { ProductCard } from "@/components/site/product-card";
 import { SectionBadge } from "@/components/site/section-badge";
 
 import { plansEnglish, plansSpanish } from "@/data/plans";
+import { Link } from "@/i18n/routing";
 
 export const metadata = {
   title: "Store — ByteForge",
@@ -108,7 +109,7 @@ export default function StorePage() {
 
                 {/* Right */}
                 <div className="flex flex-col items-start gap-5">
-                  <a
+                  <Link
                     href="/cotizar"
                     className="
                       inline-flex items-center justify-center
@@ -119,7 +120,7 @@ export default function StorePage() {
                     "
                   >
                     {t("flexibility.button")}
-                  </a>
+                  </Link>
 
                   <p className="max-w-xs text-sm leading-7 text-slate-500">
                     {t("flexibility.note")}

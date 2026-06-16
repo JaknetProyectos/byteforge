@@ -8,9 +8,9 @@ export function Footer() {
   const t = useTranslations("footer");
 
   const legal = [
-    { label: t("legal.privacy"), href: "#" },
-    { label: t("legal.terms"), href: "#" },
-    { label: t("legal.returns"), href: "#" },
+    { label: t("legal.privacy"), href: "/legal/privacidad" },
+    { label: t("legal.terms"), href: "/legal/terminos" },
+    { label: t("legal.returns"), href: "/legal/reembolsos" },
   ];
 
   const navigation = [
@@ -65,23 +65,23 @@ export function Footer() {
               <p>
                 {t("phone")}
                 {" "}
-                <a
+                <Link
                   href="tel:+5215552445783"
                   className="font-medium text-slate-900 transition-colors hover:text-blue-700"
                 >
                   +52 1 55 5244 5783
-                </a>
+                </Link>
               </p>
 
               <p>
                 {t("email")}
                 {" "}
-                <a
-                  href="mailto:tuvoz@vesperhost.com"
+                <Link
+                  href="tuvoz@byteforge.com.mx"
                   className="font-medium text-slate-900 transition-colors hover:text-blue-700"
                 >
-                  tuvoz@vesperhost.com
-                </a>
+                  tuvoz@byteforge.com.mx
+                </Link>
               </p>
             </div>
           </div>

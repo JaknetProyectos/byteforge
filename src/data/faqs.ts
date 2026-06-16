@@ -28,7 +28,7 @@ export const faqs: { q: string; a: string }[] = [
     a: "It's the time your website stays online. We guarantee 99.99% uptime so your business never stops.",
   },
   {
-    q: "What are the benefits of hosting my site with VesperHost?",
+    q: "What are the benefits of hosting my site with ByteForge?",
     a: "With us you get a stable, secure and optimized service, backed by modern infrastructure that guarantees the best performance for your website.",
   },
 ];

@@ -172,7 +172,7 @@ export async function POST(req: Request) {
                         "
                       >
                         Contact:
-                        hello@centromedicoavanza.com
+                        tuvoz@byteforge.com.mx
                       </p>
 
                     </td>
@@ -487,9 +487,9 @@ export async function POST(req: Request) {
     await Promise.all([
       resend.emails.send({
         from:
-          "ByteForge <hello@centromedicoavanza.com>",
+          "ByteForge <tuvoz@byteforge.com.mx>",
         to: [
-          "hello@centromedicoavanza.com",
+          "tuvoz@byteforge.com.mx",
         ],
         replyTo: email,
         subject: `New Website Message: ${nombre}`,
@@ -498,7 +498,7 @@ export async function POST(req: Request) {
 
       resend.emails.send({
         from:
-          "ByteForge <hello@centromedicoavanza.com>",
+          "ByteForge <tuvoz@byteforge.com.mx>",
         to: [email],
         subject:
           "We received your message - ByteForge",

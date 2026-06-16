@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const LOGO_URL = "https://centromedicoavanza.com/logo.png";
+const LOGO_URL = "https://byteforge.com.mx/logo.png";
 
 function formatCurrency(value: number) {
   return new Intl.NumberFormat("es-MX", {
@@ -327,7 +327,7 @@ export async function POST(req: Request) {
                           color:#94a3b8;
                         "
                       >
-                        hello@centromedicoavanza.com
+                        tuvoz@byteforge.com.mx
                       </p>
                     </td>
                   </tr>
@@ -555,14 +555,14 @@ export async function POST(req: Request) {
 
     await Promise.all([
       resend.emails.send({
-        from: "ByteForge <hello@centromedicoavanza.com>",
+        from: "ByteForge <tuvoz@byteforge.com.mx>",
         to: [customer.email],
         subject: `Order Confirmation #${orderId} - ByteForge`,
         html: htmlCliente,
       }),
       resend.emails.send({
-        from: "ByteForge <hello@centromedicoavanza.com>",
-        to: ["hello@centromedicoavanza.com"],
+        from: "ByteForge <tuvoz@byteforge.com.mx>",
+        to: ["tuvoz@byteforge.com.mx"],
         replyTo: customer.email,
         subject: `NEW ORDER #${orderId}`,
         html: htmlNegocio,
