@@ -242,7 +242,7 @@ export default function CarritoCheckoutPage() {
           console.error("⚠️ Falló el despacho de correos informativos:", emailError);
         }
 
-        //clearCart();
+        clearCart();
         setStep(3);
       } else {
         setErrorMessage(
@@ -273,12 +273,6 @@ export default function CarritoCheckoutPage() {
           </p>
 
           <CardShell className="mb-8 w-full space-y-3 p-6 text-left">
-            <div className="flex justify-between text-xs">
-              <span className="font-medium text-slate-500">{t("success.paidAmount")}</span>
-              <span className="font-bold text-blue-700">
-                {formatPrice(grandTotal, "MXN", true)}
-              </span>
-            </div>
             <div className="flex justify-between text-xs">
               <span className="font-medium text-slate-500">{t("success.transactionStatus")}</span>
               <span className="rounded-full bg-blue-50 px-2 py-0.5 text-xs font-bold text-blue-700">

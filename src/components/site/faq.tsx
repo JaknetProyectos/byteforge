@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import {
   Accordion,
@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/accordion";
 
 import { SectionBadge } from "./section-badge";
-import { faqs } from "@/data/faqs";
+import { faqsEnglish, faqsSpanish } from "@/data/faqs";
 
 function FaqColumn({
   items,
@@ -42,8 +42,9 @@ function FaqColumn({
 
 export function Faq() {
   const t = useTranslations("faq");
+  const locale = useLocale()
 
-  const localizedFaqs = faqs;
+  const localizedFaqs = locale == "es" ? faqsSpanish : faqsEnglish;
 
   const left = localizedFaqs.filter((_, i) => i % 2 === 0);
   const right = localizedFaqs.filter((_, i) => i % 2 === 1);
