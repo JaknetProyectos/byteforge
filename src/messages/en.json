@@ -512,5 +512,74 @@
       "terms": "Terms and Conditions",
       "returns": "Returns and Refund Policy"
     }
+  },
+  "purchaseEmail": {
+    "errors": {
+      "incompleteOrder": "Incomplete order information."
+    },
+    "fallbacks": {
+      "product": "Product",
+      "productDescription": "Premium digital infrastructure service."
+    },
+    "header": {
+      "title": "Purchase confirmed",
+      "description": "Your hosting order has been successfully processed."
+    },
+    "product": {
+      "quantity": "Quantity",
+      "total": "Total"
+    },
+    "customer": {
+      "order": "Order",
+      "thanks": "Thanks for your purchase,",
+      "processing": "Your payment has been successfully verified and your order is now being processed by our infrastructure team.",
+      "totalPaid": "Total paid",
+      "address": "Assigned address",
+      "zip": "ZIP"
+    },
+    "business": {
+      "newOrder": "New ecommerce order",
+      "processed": "processed successfully",
+      "customerInfo": "Customer information",
+      "name": "Name:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "notes": "Notes:",
+      "none": "None"
+    },
+    "subjects": {
+      "customer": "Order confirmation",
+      "business": "NEW ORDER"
+    }
+  },
+  "contactEmail": {
+    "errors": {
+      "missingFields": "Required fields are missing (name, email, message)"
+    },
+    "header": {
+      "description": "High-performance infrastructure, scalable cloud systems, and enterprise-grade digital solutions."
+    },
+    "footer": {
+      "copy": "ByteForge © 2026 — Infrastructure for modern businesses.",
+      "contact": "Contact:"
+    },
+    "internal": {
+      "badge": "NEW CONTACT REQUEST",
+      "title": "New website inquiry received",
+      "clientName": "Client Name",
+      "emailAddress": "Email Address",
+      "messageContent": "Message Content"
+    },
+    "user": {
+      "greeting": "Hello,",
+      "line1": "Your message has been successfully received.",
+      "line2": "Our ByteForge team is already reviewing your request and we'll get back to you as soon as possible.",
+      "messageTitle": "Your Message",
+      "button": "Visit ByteForge"
+    },
+    "subjects": {
+      "internal": "New Website Message:",
+      "user": "We received your message - ByteForge"
+    }
   }
 }

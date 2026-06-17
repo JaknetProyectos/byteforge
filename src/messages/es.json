@@ -512,5 +512,74 @@
       "terms": "Términos y Condiciones",
       "returns": "Política de devoluciones y reembolsos"
     }
+  },
+  "purchaseEmail": {
+    "errors": {
+      "incompleteOrder": "Información de orden incompleta."
+    },
+    "fallbacks": {
+      "product": "Producto",
+      "productDescription": "Servicio premium de infraestructura digital."
+    },
+    "header": {
+      "title": "Compra confirmada",
+      "description": "Tu pedido de hosting ha sido procesado correctamente."
+    },
+    "product": {
+      "quantity": "Cantidad",
+      "total": "Total"
+    },
+    "customer": {
+      "order": "Orden",
+      "thanks": "Gracias por tu compra,",
+      "processing": "Tu pago ha sido verificado correctamente y tu orden ya está siendo procesada por nuestro equipo de infraestructura.",
+      "totalPaid": "Total pagado",
+      "address": "Dirección asignada",
+      "zip": "CP"
+    },
+    "business": {
+      "newOrder": "Nueva orden ecommerce",
+      "processed": "procesados correctamente",
+      "customerInfo": "Información del cliente",
+      "name": "Nombre:",
+      "email": "Correo:",
+      "phone": "Teléfono:",
+      "notes": "Notas:",
+      "none": "Ninguna"
+    },
+    "subjects": {
+      "customer": "Confirmación de orden",
+      "business": "NUEVA ORDEN"
+    }
+  },
+  "contactEmail": {
+    "errors": {
+      "missingFields": "Faltan campos requeridos (nombre, email, mensaje)"
+    },
+    "header": {
+      "description": "Infraestructura de alto rendimiento, sistemas cloud escalables y soluciones digitales de nivel empresarial."
+    },
+    "footer": {
+      "copy": "ByteForge © 2026 — Infraestructura para negocios modernos.",
+      "contact": "Contacto:"
+    },
+    "internal": {
+      "badge": "NUEVA SOLICITUD DE CONTACTO",
+      "title": "Nueva consulta recibida desde el sitio web",
+      "clientName": "Nombre del cliente",
+      "emailAddress": "Correo electrónico",
+      "messageContent": "Contenido del mensaje"
+    },
+    "user": {
+      "greeting": "Hola,",
+      "line1": "Tu mensaje ha sido recibido correctamente.",
+      "line2": "Nuestro equipo de ByteForge ya está revisando tu solicitud y te responderemos lo antes posible.",
+      "messageTitle": "Tu mensaje",
+      "button": "Visitar ByteForge"
+    },
+    "subjects": {
+      "internal": "Nuevo mensaje del sitio web:",
+      "user": "Recibimos tu mensaje - ByteForge"
+    }
   }
 }

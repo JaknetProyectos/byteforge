@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { getTranslations } from "next-intl/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const LOGO_URL = "https://byteforge.com.mx/logo.png";
 
-function formatCurrency(value: number) {
-  return new Intl.NumberFormat("es-MX", {
+function formatCurrency(value: number, locale: string) {
+  return new Intl.NumberFormat(locale, {
     style: "currency",
     currency: "MXN",
   }).format(value);
@@ -25,14 +26,28 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    const { orderId, amount, customer, items, metadata } = body;
+    const {
+      orderId,
+      amount,
+      customer,
+      items,
+      metadata,
+      locale = "es",
+    } = body;
+
+    const t = await getTranslations({
+      locale,
+      namespace: "purchaseEmail",
+    });
 
     if (!orderId || !amount || !customer || !items || !items.length) {
       return NextResponse.json(
-        { error: "Información de orden incompleta." },
+        { error: t("errors.incompleteOrder") },
         { status: 400 }
       );
     }
+
+    const currencyLocale = locale === "en" ? "en-US" : "es-MX";
 
     const customerName = escapeHtml(customer.nombre || "");
     const customerLastName = escapeHtml(customer.apellido || "");
@@ -54,10 +69,14 @@ export async function POST(req: Request) {
       const unitPrice = Number(product.price || 0);
       const total = unitPrice * qty;
 
-      const productName = escapeHtml(product.name || "Product");
-      const productDescription = escapeHtml(
-        product.description || "Premium digital infrastructure service."
+      const productName = escapeHtml(
+        product.name || t("fallbacks.product")
       );
+
+      const productDescription = escapeHtml(
+        product.description || t("fallbacks.productDescription")
+      );
+
       const productIcon = String(product.icon || "");
 
       productsHTML += `
@@ -130,7 +149,7 @@ export async function POST(req: Request) {
                         font-weight:700;
                       "
                     >
-                      Quantity
+                      ${t("product.quantity")}
                     </p>
 
                     <p
@@ -156,7 +175,7 @@ export async function POST(req: Request) {
                         font-weight:700;
                       "
                     >
-                      Total
+                      ${t("product.total")}
                     </p>
 
                     <p
@@ -167,7 +186,7 @@ export async function POST(req: Request) {
                         font-weight:900;
                       "
                     >
-                      ${formatCurrency(total)}
+                      ${formatCurrency(total, currencyLocale)}
                     </p>
                   </td>
                 </tr>
@@ -282,7 +301,7 @@ export async function POST(req: Request) {
                           letter-spacing:-0.05em;
                         "
                       >
-                        Purchase Confirmed
+                        ${t("header.title")}
                       </h1>
 
                       <p
@@ -294,7 +313,7 @@ export async function POST(req: Request) {
                           color:rgba(255,255,255,0.78);
                         "
                       >
-                        Your hosting order has been successfully processed.
+                        ${t("header.description")}
                       </p>
                     </td>
                   </tr>
@@ -358,7 +377,7 @@ export async function POST(req: Request) {
               margin-bottom:20px;
             "
           >
-            Order #${escapeHtml(orderId)}
+            ${t("customer.order")} #${escapeHtml(orderId)}
           </div>
 
           <h2
@@ -370,7 +389,7 @@ export async function POST(req: Request) {
               letter-spacing:-0.04em;
             "
           >
-            Thanks for your purchase, ${customerName}
+            ${t("customer.thanks")} ${customerName}
           </h2>
 
           <p
@@ -381,7 +400,7 @@ export async function POST(req: Request) {
               color:#475569;
             "
           >
-            Your payment has been successfully verified and your order is now being processed by our infrastructure team.
+            ${t("customer.processing")}
           </p>
 
           ${productsHTML}
@@ -416,7 +435,7 @@ export async function POST(req: Request) {
                     text-transform:uppercase;
                   "
                 >
-                  Total Paid
+                  ${t("customer.totalPaid")}
                 </p>
 
                 <p
@@ -429,7 +448,7 @@ export async function POST(req: Request) {
                     letter-spacing:-0.05em;
                   "
                 >
-                  ${formatCurrency(amount)}
+                  ${formatCurrency(amount, currencyLocale)}
                 </p>
               </td>
             </tr>
@@ -454,7 +473,7 @@ export async function POST(req: Request) {
                 letter-spacing:0.08em;
               "
             >
-              Assigned Address
+              ${t("customer.address")}
             </p>
 
             <p
@@ -466,7 +485,7 @@ export async function POST(req: Request) {
               "
             >
               ${customerAddress}${customerAddress2}<br>
-              ${customerCity}, ${customerState}, CP ${customerZip}
+              ${customerCity}, ${customerState}, ${t("customer.zip")} ${customerZip}
             </p>
           </div>
         </td>
@@ -494,7 +513,7 @@ export async function POST(req: Request) {
               margin-bottom:20px;
             "
           >
-            New Ecommerce Order
+            ${t("business.newOrder")}
           </div>
 
           <h2
@@ -506,7 +525,7 @@ export async function POST(req: Request) {
               letter-spacing:-0.04em;
             "
           >
-            ${formatCurrency(amount)} processed successfully
+            ${formatCurrency(amount, currencyLocale)} ${t("business.processed")}
           </h2>
 
           <div
@@ -528,7 +547,7 @@ export async function POST(req: Request) {
                 letter-spacing:0.08em;
               "
             >
-              Customer Information
+              ${t("business.customerInfo")}
             </p>
 
             <p
@@ -539,10 +558,12 @@ export async function POST(req: Request) {
                 color:#334155;
               "
             >
-              <strong>Name:</strong> ${customerName} ${customerLastName}<br>
-              <strong>Email:</strong> ${customerEmail}<br>
-              <strong>Phone:</strong> ${customerPhone}<br>
-              <strong>Notes:</strong> ${escapeHtml(metadata?.notes || "None")}
+              <strong>${t("business.name")}</strong> ${customerName} ${customerLastName}<br>
+              <strong>${t("business.email")}</strong> ${customerEmail}<br>
+              <strong>${t("business.phone")}</strong> ${customerPhone}<br>
+              <strong>${t("business.notes")}</strong> ${escapeHtml(
+                metadata?.notes || t("business.none")
+              )}
             </p>
           </div>
 
@@ -557,14 +578,15 @@ export async function POST(req: Request) {
       resend.emails.send({
         from: "ByteForge <tuvoz@byteforge.com.mx>",
         to: [customer.email],
-        subject: `Order Confirmation #${orderId} - ByteForge`,
+        subject: `${t("subjects.customer")} #${orderId} - ByteForge`,
         html: htmlCliente,
       }),
+
       resend.emails.send({
         from: "ByteForge <tuvoz@byteforge.com.mx>",
         to: ["tuvoz@byteforge.com.mx"],
         replyTo: customer.email,
-        subject: `NEW ORDER #${orderId}`,
+        subject: `${t("subjects.business")} #${orderId}`,
         html: htmlNegocio,
       }),
     ]);
@@ -574,7 +596,10 @@ export async function POST(req: Request) {
     console.error("❌ Error enviando correos:", error);
 
     return NextResponse.json(
-      { error: error?.message || "Error al procesar la solicitud" },
+      {
+        error:
+          error?.message || "Error al procesar la solicitud",
+      },
       { status: 500 }
     );
   }

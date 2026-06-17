@@ -1,26 +1,42 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { getTranslations } from "next-intl/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const LOGO_URL =
   "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop";
 
+function escapeHtml(value: string) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    const { nombre, email, mensaje } = body;
+    const { nombre, email, mensaje, locale = "es" } = body;
+
+    const t = await getTranslations({
+      locale,
+      namespace: "contactEmail",
+    });
 
     if (!nombre || !email || !mensaje) {
       return NextResponse.json(
-        {
-          error:
-            "Faltan campos requeridos (nombre, email, mensaje)",
-        },
+        { error: t("errors.missingFields") },
         { status: 400 }
       );
     }
+
+    const safeNombre = escapeHtml(nombre);
+    const safeEmail = escapeHtml(email);
+    const safeMensaje = escapeHtml(mensaje);
 
     const wrapperStart = `
       <!DOCTYPE html>
@@ -132,9 +148,7 @@ export async function POST(req: Request) {
                           margin-inline:auto;
                         "
                       >
-                        High-performance infrastructure,
-                        scalable cloud systems, and
-                        enterprise-grade digital solutions.
+                        ${t("header.description")}
                       </p>
 
                     </td>
@@ -161,7 +175,7 @@ export async function POST(req: Request) {
                           line-height:1.7;
                         "
                       >
-                        ByteForge © 2026 — Infrastructure for modern businesses.
+                        ${t("footer.copy")}
                       </p>
 
                       <p
@@ -171,8 +185,7 @@ export async function POST(req: Request) {
                           color:#94a3b8;
                         "
                       >
-                        Contact:
-                        tuvoz@byteforge.com.mx
+                        ${t("footer.contact")} tuvoz@byteforge.com.mx
                       </p>
 
                     </td>
@@ -208,7 +221,7 @@ export async function POST(req: Request) {
               margin-bottom:22px;
             "
           >
-            NEW CONTACT REQUEST
+            ${t("internal.badge")}
           </div>
 
           <h2
@@ -220,7 +233,7 @@ export async function POST(req: Request) {
               letter-spacing:-0.04em;
             "
           >
-            New website inquiry received
+            ${t("internal.title")}
           </h2>
 
           <table
@@ -255,7 +268,7 @@ export async function POST(req: Request) {
                     letter-spacing:0.08em;
                   "
                 >
-                  Client Name
+                  ${t("internal.clientName")}
                 </p>
 
                 <p
@@ -266,7 +279,7 @@ export async function POST(req: Request) {
                     color:#0f172a;
                   "
                 >
-                  ${nombre}
+                  ${safeNombre}
                 </p>
 
               </td>
@@ -289,11 +302,11 @@ export async function POST(req: Request) {
                     letter-spacing:0.08em;
                   "
                 >
-                  Email Address
+                  ${t("internal.emailAddress")}
                 </p>
 
                 <a
-                  href="mailto:${email}"
+                  href="mailto:${safeEmail}"
                   style="
                     font-size:15px;
                     color:#2563eb;
@@ -301,7 +314,7 @@ export async function POST(req: Request) {
                     font-weight:600;
                   "
                 >
-                  ${email}
+                  ${safeEmail}
                 </a>
 
               </td>
@@ -333,7 +346,7 @@ export async function POST(req: Request) {
                 text-transform:uppercase;
               "
             >
-              Message Content
+              ${t("internal.messageContent")}
             </p>
 
             <p
@@ -345,7 +358,7 @@ export async function POST(req: Request) {
                 white-space:pre-wrap;
               "
             >
-              ${mensaje}
+              ${safeMensaje}
             </p>
 
           </div>
@@ -398,7 +411,7 @@ export async function POST(req: Request) {
               letter-spacing:-0.04em;
             "
           >
-            Hello, ${nombre}
+            ${t("user.greeting")} ${safeNombre}
           </h2>
 
           <p
@@ -410,10 +423,9 @@ export async function POST(req: Request) {
               color:#475569;
             "
           >
-            Your message has been successfully received.
-            Our ByteForge team is already reviewing
-            your request and we’ll get back to you
-            as soon as possible.
+            ${t("user.line1")}
+            <br />
+            ${t("user.line2")}
           </p>
 
           <div
@@ -436,7 +448,7 @@ export async function POST(req: Request) {
                 letter-spacing:0.08em;
               "
             >
-              Your Message
+              ${t("user.messageTitle")}
             </p>
 
             <p
@@ -446,9 +458,10 @@ export async function POST(req: Request) {
                 line-height:1.8;
                 color:#334155;
                 font-style:italic;
+                white-space:pre-wrap;
               "
             >
-              "${mensaje}"
+              "${safeMensaje}"
             </p>
 
           </div>
@@ -473,7 +486,7 @@ export async function POST(req: Request) {
                 text-decoration:none;
               "
             >
-              Visit ByteForge
+              ${t("user.button")}
             </a>
 
           </div>
@@ -486,22 +499,17 @@ export async function POST(req: Request) {
 
     await Promise.all([
       resend.emails.send({
-        from:
-          "ByteForge <tuvoz@byteforge.com.mx>",
-        to: [
-          "tuvoz@byteforge.com.mx",
-        ],
+        from: "ByteForge <tuvoz@byteforge.com.mx>",
+        to: ["tuvoz@byteforge.com.mx"],
         replyTo: email,
-        subject: `New Website Message: ${nombre}`,
+        subject: `${t("subjects.internal")} ${nombre}`,
         html: htmlNegocio,
       }),
 
       resend.emails.send({
-        from:
-          "ByteForge <tuvoz@byteforge.com.mx>",
+        from: "ByteForge <tuvoz@byteforge.com.mx>",
         to: [email],
-        subject:
-          "We received your message - ByteForge",
+        subject: t("subjects.user"),
         html: htmlUsuario,
       }),
     ]);
@@ -509,18 +517,12 @@ export async function POST(req: Request) {
     return NextResponse.json({
       success: true,
     });
-
   } catch (error: any) {
-    console.error(
-      "❌ Error enviando correos:",
-      error
-    );
+    console.error("❌ Error enviando correos:", error);
 
     return NextResponse.json(
       {
-        error:
-          error?.message ||
-          "Error al procesar la solicitud",
+        error: error?.message || "Error al procesar la solicitud",
       },
       { status: 500 }
     );
